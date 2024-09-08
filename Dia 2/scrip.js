@@ -42,3 +42,37 @@ console.log(code.charCodeAt('J'))
 //15.Use __indexOf__ para determinar a posição da primeira ocorrência de __a__ em 30 Dias de JavaScript.
 let posicao = '30 Dias de JavaScript'
 console.log(posicao.indexOf('a'))
+//16.Use __lastIndexOf__ para determinar a posição da última ocorrência de __a__ em 30 Dias de JavaScript.
+let UltimaPosicao = '30 Dias de JavaScript'
+console.log(UltimaPosicao.lastIndexOf('a'))
+//17.Use __indexOf__ para encontrar a posição da primeira ocorrência da palavra __because__ na seguinte frase:__'You cannot end a sentence with because because because is a conjunction'__.
+let Frase = 'You cannot end a sentence with because because because is a conjunction'
+console.log(Frase.indexOf('because'))
+//18. Use __lastIndexOf__ para encontrar a posição da última ocorrência da palavra __because__ na seguinte frase:__'You cannot end a sentence with because because because is a conjunction'__.
+let UltimaFrase = 'You cannot end a sentence with because because because is a conjunction'
+console.log(UltimaFrase.lastIndexOf('because'))
+//19.Use __search__ para encontrar a posição da primeira ocorrência da palavra __because__ na seguinte frase:__'You cannot end a sentence with because because because is a conjunction'__.
+let Encontrar = 'You cannot end a sentence with because because because is a conjunction'
+console.log(Encontrar.search('because'))
+//20.Use __trim()__ para remover qualquer espaço adicional no início e no final da string .E.g "   30 Dias de JavaScript   ".
+let EG =  "   30 Dias de JavaScript   "
+console.log(EG.trim(' '))
+//21.Use __startsWith()__ com a string *30 Dias De JavaScript* e faça o resultado ser verdadeiro.
+let Verdadeira = '30 Dias De Javascript'
+console.log(Verdadeira.startsWith('30'))
+//22.Use __endsWith()__ com a string *30 Dias De JavaScript* e faça o resultado ser verdadeiro.
+let verdadeiro = '30 Dias De Javascript'
+console.log(verdadeiro.endsWith('Javascript'))
+//23.Use __match()__ para encontrar todos os __a__'s em 30 Dias De JavaScript.
+let encontrar = '30 Dias De Javascript'
+console.log(encontrar.match('a'))
+//24.Use __concat()__ para unir "30 Dias de" e "JavaScript" para uma única string, "30 Dias de JavaScript".
+/* forma de concatenar 
+let PrimeiraFrase = '30 Dias de'
+let SegundaFrase = ' Javascript'
+console.log(PrimeiraFrase + SegundaFrase)*/ 
+let Juntar = '30 Dias de'
+console.log(Juntar.concat(' Javascript'))
+//25.Use __repeat()__ para imprimir 30 Dias De JavaScript 2 vezes.
+let repetir = '30 Dias De Javascript '
+console.log(repetir.repeat(2))

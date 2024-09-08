@@ -160,15 +160,66 @@
 
 15.Use __indexOf__ para determinar a posição da primeira ocorrência de __a__ em 30 Dias de JavaScript.
 
+<img src="./assets/images/image15.png">
 
 ---
-16. Use __lastIndexOf__ para determinar a posição da última ocorrência de __a__ em 30 Dias de JavaScript.
-17. Use __indexOf__ para encontrar a posição da primeira ocorrência da palavra __because__ na seguinte frase:__'You cannot end a sentence with because because because is a conjunction'__.
-18. Use __lastIndexOf__ para encontrar a posição da última ocorrência da palavra __because__ na seguinte frase:__'You cannot end a sentence with because because because is a conjunction'__.
-19. Use __search__ para encontrar a posição da primeira ocorrência da palavra __because__ na seguinte frase:__'You cannot end a sentence with because because because is a conjunction'__.
-20. Use __trim()__ para remover qualquer espaço adicional no início e no final da string .E.g "   30 Dias de JavaScript   ".
-21. Use __startsWith()__ com a string *30 Dias De JavaScript* e faça o resultado ser verdadeiro.
-22. Use __endsWith()__ com a string *30 Dias De JavaScript* e faça o resultado ser verdadeiro.
-23. Use __match()__ para encontrar todos os __a__'s em 30 Dias De JavaScript.
-24. Use __concat()__ para unir "30 Dias de" e "JavaScript" para uma única string, "30 Dias de JavaScript".
-25. Use __repeat()__ para imprimir 30 Dias De JavaScript 2 vezes.
+
+16.Use __lastIndexOf__ para determinar a posição da última ocorrência de __a__ em 30 Dias de JavaScript.
+
+<img src="./assets/images/image16.png">
+
+---
+
+17.Use __indexOf__ para encontrar a posição da primeira ocorrência da palavra __because__ na seguinte frase:__'You cannot end a sentence with because because because is a conjunction'__.
+
+<img src="./assets/images/image17.png">
+
+---
+
+18.Use __lastIndexOf__ para encontrar a posição da última ocorrência da palavra __because__ na seguinte frase:__'You cannot end a sentence with because because because is a conjunction'__.
+
+<img src="./assets/images/image18.png">
+
+---
+
+19.Use __search__ para encontrar a posição da primeira ocorrência da palavra __because__ na seguinte frase:__'You cannot end a sentence with because because because is a conjunction'__.
+
+<img src="./assets/images/image19.png">
+
+---
+
+20.Use __trim()__ para remover qualquer espaço adicional no início e no final da string .E.g "   30 Dias de JavaScript   ".
+
+<img src="./assets/images/image20.png">
+
+---
+
+21.Use __startsWith()__ com a string *30 Dias De JavaScript* e faça o resultado ser verdadeiro.
+
+<img src="./assets/images/image21.png">
+
+---
+
+22.Use __endsWith()__ com a string *30 Dias De JavaScript* e faça o resultado ser verdadeiro.
+
+<img src="./assets/images/image22.png">
+
+---
+
+23.Use __match()__ para encontrar todos os __a__'s em 30 Dias De JavaScript.
+
+<img src="./assets/images/image23.png">
+
+---
+
+24.Use __concat()__ para unir "30 Dias de" e "JavaScript" para uma única string, "30 Dias de JavaScript".
+
+<img src="./assets/images/image24.png">
+
+---
+
+25.Use __repeat()__ para imprimir 30 Dias De JavaScript 2 vezes.
+
+
+
+---
