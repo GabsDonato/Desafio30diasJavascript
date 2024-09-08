@@ -308,6 +308,6 @@ Exercícios: Level 3
 
 4. Calcular o total anual de uma pessoa extraindo os números do seguinte texto. __"Ele recebe 5000 euros de salário por mês, 10000 euros de bônus anual, 15000 euros de cursos onlines por mês.'__. 
 
-<img src="./assets/images/image-4-4.png">
+<img src="./assets/images/image-4-4.png">.
 
 ---
