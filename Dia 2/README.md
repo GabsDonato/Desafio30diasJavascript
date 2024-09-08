@@ -220,6 +220,94 @@
 
 25.Use __repeat()__ para imprimir 30 Dias De JavaScript 2 vezes.
 
+<img src="./assets/images/image25.png">
 
+---
+
+Exercícios: Level 2
+
+1. Usando o console.log() imprimir a seguinte citação:
+  ```sh
+    "Não há exercício melhor para o coração que ir lá em baixo e levantar as pessoas" by John Holmes nos ensina a ajudar outras pessoas.
+  ```
+
+<img src="./assets/images/image-1.png">
+
+2. Usando o console.log() imprimir a seguinte citação de Madre Teresa:
+  ```sh
+    "O amor não é paternalista e a caridade não tem a ver com pena, tem a ver com amor. Caridade e amor são a mesma coisa – com a caridade você dá amor, então não dê apenas dinheiro, mas estenda sua mão."
+  ```
+
+<img src="./assets/images/image-2.png">
+
+3. Verificar se typeOf "10" é exatamente igual a 10. Se não, faça ser exatamente igual.
+
+<img src="./assets/images/image-3.png">
+
+4. Verificar se parseFloat("9.8) é igual a 10. Se não, faça ser exatamente igual com 10.
+
+<img src="./assets/images/image-4.png">
+
+5. Verificar se "ão" é encontrado em ambos algodão e jargão.
+
+<img src="./assets/images/image-5.png">
+
+6. _Espero que este curso não tenha muitos jargões_. Verifique se _jargões_ está na frase. 
+
+
+<img src="./assets/images/image-6.png">
+
+7. Gerar um número aleatório entre incluindo 0 e 100.
+
+<img src="./assets/images/image-7.png">
+
+8. Gerar um número aleatório entre incluindo 50 e 100.
+
+<img src="./assets/images/image-8.png">
+
+9. Gerar um número aleatório entre incluindo 0 e 255.
+
+<img src="./assets/images/image-9.png">
+
+10. Acesse os caracteres da string "JavaScript" usando um número aleatório.
+
+<img src="./assets/images/image-10.png">
+
+11. Use console.log() e imprimir os caracteres no seguinte padrão.
+    ```js
+    1 1 1 1 1
+    2 1 2 4 8
+    3 1 3 9 27
+    4 1 4 16 64
+    5 1 5 25 125
+    ```
+<img src="./assets/images/image-11.png">
+
+12. Use __substr__ para retirar da frase __because because because__ da seguinte frase: __'You cannot end a sentence with because because because is a conjunction'__.
+
+<img src="./assets/images/image-12.png">
+
+---
+
+Exercícios: Level 3
+
+1. "Amor é a melhor coisa neste mundo. Alguns encontraram seu amor e alguns ainda estão procurando pelo seu amor." Contar o número de palavras __amor__ nesta frase.
+
+<img src="./assets/images/image-1-1.png">
+
+2. Use __match()__ para contar os números de todos os __because__ na seguinte frase: __'You cannot end a sentence with because because because is a conjunction'__.  
+
+<img src="./assets/images/image-2-2.png">
+
+3. Limpar o seguinte texto e encontrar a palavra mais repetida (dica, use replace e expressões regulares)
+  ```js
+    const frase = " %I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching "
+  ```  
+
+<img src="./assets/images/image-3-3.png">
+
+4. Calcular o total anual de uma pessoa extraindo os números do seguinte texto. __"Ele recebe 5000 euros de salário por mês, 10000 euros de bônus anual, 15000 euros de cursos onlines por mês.'__. 
+
+<img src="./assets/images/image-4-4.png">
 
 ---
