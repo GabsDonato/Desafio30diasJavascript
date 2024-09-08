@@ -73,3 +73,102 @@
 4. Calcular o total anual de uma pessoa extraindo os números do seguinte texto. __"Ele recebe 5000 euros de salário por mês, 10000 euros de bônus anual, 15000 euros de cursos onlines por mês.'__. 
 
 ## Resultados no devtools
+
+1.Declare uma variável chamada desafio e atribua a ela um valor inicial '30 Dias de JavaScript'.
+
+<img src="./assets/images/image.png" >
+
+---
+
+2.Imprimir uma string no console do browser usando console.log().
+
+<img src="./assets/images/image2.png">
+
+---
+
+3.Imprimir o __length__ da string no console do browser usando o __console.log()__.
+
+<img src="./assets/images/image3.png">
+
+---
+
+4.Troque todos os caracteres da string para letras maiúsculas usando o método __toUpperCase()__.
+
+<img src="./assets/images/image4.png">
+
+---
+
+5.Troque todos os caracteres da string para letras minúsculas usando o método __toLowerCase()__.
+
+<img src="./assets/images/image5.png">
+
+---
+
+6.Retirar (Slice) a primeira letra da string usando os métodos __substr()__ ou __substring()__. 
+
+<img src="./assets/images/image6.png">
+
+---
+
+7.Dividir a frase *Days Of JavaScript* de *30 Days Of JavaScript*.
+
+<img src="./assets/images/image7.png">
+
+---
+
+8.Verificar se a string contém a palavra __Script__ usando o método __includes()__.
+
+<img src="./assets/images/image8.png">
+
+---
+
+9.Separar a __string__ em um __array__ usando o método __split()__.
+
+<img src="./assets/images/image9.png">
+
+---
+
+10.Separar a string 30 Dias de JavaScript com espaços usando o método __split()__.
+
+<img src="./assets/images/image10.png">
+
+---
+
+11."Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" __split__ a string com vírgulas e mude-a para um array. 
+
+<img src="./assets/images/image11.png">
+
+---
+
+12.Mude 30 Dias de JavaScript para 30 Dias de Python usando o método __replace()__.
+
+<img src="./assets/images/image12.png">
+
+---
+
+13.Qual é o caractere no index 15 em "30 Dias de JavaScript' string? Use o método __charAt()__.
+
+<img src="./assets/images/image13.png">
+
+---
+
+14.Qual é o código do caractere de J em "30 Dias de JavaScript" string usando o método __charCodeAt()__.
+
+<img src="./assets/images/image14.png">
+
+---
+
+15.Use __indexOf__ para determinar a posição da primeira ocorrência de __a__ em 30 Dias de JavaScript.
+
+
+---
+16. Use __lastIndexOf__ para determinar a posição da última ocorrência de __a__ em 30 Dias de JavaScript.
+17. Use __indexOf__ para encontrar a posição da primeira ocorrência da palavra __because__ na seguinte frase:__'You cannot end a sentence with because because because is a conjunction'__.
+18. Use __lastIndexOf__ para encontrar a posição da última ocorrência da palavra __because__ na seguinte frase:__'You cannot end a sentence with because because because is a conjunction'__.
+19. Use __search__ para encontrar a posição da primeira ocorrência da palavra __because__ na seguinte frase:__'You cannot end a sentence with because because because is a conjunction'__.
+20. Use __trim()__ para remover qualquer espaço adicional no início e no final da string .E.g "   30 Dias de JavaScript   ".
+21. Use __startsWith()__ com a string *30 Dias De JavaScript* e faça o resultado ser verdadeiro.
+22. Use __endsWith()__ com a string *30 Dias De JavaScript* e faça o resultado ser verdadeiro.
+23. Use __match()__ para encontrar todos os __a__'s em 30 Dias De JavaScript.
+24. Use __concat()__ para unir "30 Dias de" e "JavaScript" para uma única string, "30 Dias de JavaScript".
+25. Use __repeat()__ para imprimir 30 Dias De JavaScript 2 vezes.
