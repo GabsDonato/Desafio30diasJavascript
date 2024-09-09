@@ -3,11 +3,38 @@
 ### Exercícios: Nível 1
 
 1. Declare as variáveis firstName, lastName, country, city, age, isMarried e year e atribua valores a elas. Use o operador typeof para verificar os diferentes tipos de dados.
+
+## Resultados no devtools
+
+<img src="./assets/img/image.png">
+
+---
+
 2. Verifique se o tipo de `'10'` é igual a 10.
+
+## Resultados no devtools
+
+<img src="./assets/img/image2.png">
+
+---
+
 3. Verifique se `parseInt('9.8')` é igual a 10.
+
+## Resultados no devtools
+
+<img src="./assets/img/image3.png">
+
+---
+
 4. O valor Booleano é verdadeiro (true) ou falso (false).
    1. Escreva três declarações em JavaScript que forneçam valores verdadeiros (truthy).
    2. Escreva três declarações em JavaScript que forneçam valores falsos (falsy).
+
+## Resultados no devtools
+
+<img src="./assets/img/image4.png">
+
+---   
 
 5. Descubra o resultado da seguinte expressão de comparação primeiro sem usar console.log(). Depois de decidir o resultado, confirme-o usando console.log().
    1. 4 > 3
@@ -22,6 +49,10 @@
    10. 4 == '4'
    11. 4 === '4'
    12. Encontre o comprimento das palavras "python" e "jargon" e faça uma comparação falsa.
+
+   ## Resultados no devtools
+
+   <img src="./assets/img/image5.png">
 
 6. Descubra o resultado das seguintes expressões primeiro sem usar console.log(). Depois de decidir o resultado, confirme-o usando console.log().
    1. 4 > 3 && 10 < 12
@@ -135,4 +166,3 @@
 1. Crie um formato de hora legível usando o objeto Date. A hora e o minuto devem ter sempre dois dígitos (7 horas devem ser 07 e 5 minutos devem ser 05):
    1. YYYY-MM-DD HH:mm, ex. 20120-01-02 07:05
 
-## Resultados no devtools
