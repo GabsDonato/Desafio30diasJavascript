@@ -54,6 +54,8 @@
 
    <img src="./assets/img/image5.png">
 
+---
+
 6. Descubra o resultado das seguintes expressões primeiro sem usar console.log(). Depois de decidir o resultado, confirme-o usando console.log().
    1. 4 > 3 && 10 < 12
    2. 4 > 3 && 10 > 12
@@ -67,6 +69,12 @@
    10. !(4 === '4')
    11. Não há 'on' em ambas as palavras dragon e python.
 
+   ## Resultados no devtools
+
+   <img src="./assets/img/image6.png">
+
+---
+
 7. Use o objeto Date para realizar as seguintes atividades:
    1. Qual é o ano atual?
    2. Qual é o mês atual como número?
@@ -75,6 +83,10 @@
    5. Que horas são agora?
    6. Quantos minutos são agora?
    7. Descubra o número de segundos desde 1º de janeiro de 1970 até agora.
+
+   ## Resultados no devtools
+
+   <img src="./assets/img/image7.png">
 
 ### Exercícios: Nível 2
 

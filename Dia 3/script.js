@@ -55,8 +55,66 @@ console.log( 4 === '2') //False
    console.log(4 != '4')
    console.log(4 == '4')
    console.log(4 === '4')
-
    console.log('python'.length !== 'jargon'.length);
+
+/*6. Descubra o resultado das seguintes expressões primeiro sem usar console.log(). Depois de decidir o resultado, confirme-o usando console.log().
+   1. 4 > 3 && 10 < 12 TRUE
+   2. 4 > 3 && 10 > 12 fALSE
+   3. 4 > 3 || 10 < 12 TRUE
+   4. 4 > 3 || 10 > 12 TRUE
+   5. !(4 > 3) fALSE
+   6. !(4 < 3) TRUE
+   7. !(false) TRUE
+   8. !(4 > 3 && 10 < 12) fALSE
+   9. !(4 > 3 && 10 > 12) FALSE
+   10. !(4 === '4') TRUE
+   11. Não há 'on' em ambas as palavras dragon e python.*/
+
+    console.log(4 > 3 && 10 < 12)
+    console.log(4 > 3 && 10 > 12)
+    console.log(4 > 3 || 10 < 12)
+    console.log(4 > 3 || 10 > 12)
+    console.log(!(4 > 3))
+    console.log(!(4 < 3))
+    console.log(!(false))
+    console.log(!(4 > 3 && 10 < 12))
+    console.log(!(4 > 3 && 10 > 12))
+    console.log(!(4 === '4'))
+
+    console.log(!'dragon'.includes('on') ==='python'.includes('on'))
+
+/*
+ 7. Use o objeto Date para realizar as seguintes atividades:
+   1. Qual é o ano atual?
+   2. Qual é o mês atual como número?
+   3. Qual é a data de hoje?
+   4. Qual é o dia da semana hoje como número?
+   5. Que horas são agora?
+   6. Quantos minutos são agora?
+   7. Descubra o número de segundos desde 1º de janeiro de 1970 até agora. */
+
+const YearNow = new Date()
+console.log(YearNow.getFullYear());
+
+const MonthNow = new Date()
+console.log(MonthNow.getMonth());
+
+const DateNow = new Date()
+console.log(DateNow);
+
+const DayNow = new Date()
+console.log(DayNow.getDay());
+
+const HoursNow = new Date()
+console.log(HoursNow.getHours());
+
+const MinutesNow = new Date()
+console.log(MinutesNow.getMinutes());
+ 
+const Now = new Date()
+console.log(Now.getTime());
+
+
 
 
 
