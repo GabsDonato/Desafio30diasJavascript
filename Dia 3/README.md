@@ -96,7 +96,12 @@
    Insira a base: 20
    Insira a altura: 10
    A área do triângulo é 100
-   ```
+  ```
+   ## Resultados no devtools
+
+   <img src="./assets/img/image7.png">
+
+---   
 
 2. Escreva um script que peça ao usuário para inserir os lados a, b e c de um triângulo e calcule o perímetro do triângulo (perímetro = a + b + c).
 
@@ -106,18 +111,62 @@
    Insira o lado c: 3
    O perímetro do triângulo é 12
    ```
+   ## Resultados no devtools
+
+   <img src="./assets/img/image2-2.png">
+
+---
 
 3. Obtenha o comprimento e a largura usando prompt e calcule a área de um retângulo (área = comprimento x largura) e o perímetro do retângulo (perímetro = 2 x (comprimento + largura)).
 
+
+## Resultados no devtools
+
+   <img src="./assets/img/image3-3.png">
+
+---
+
 4. Obtenha o raio usando prompt e calcule a área de um círculo (área = pi x r x r) e a circunferência de um círculo (c = 2 x pi x r), onde pi = 3.14.
+
+
+## Resultados no devtools
+
+   <img src="./assets/img/image4-4.png">
+
+---
 
 5. Calcule a inclinação, o intercepto x e o intercepto y da equação y = 2x - 2.
 
+
+## Resultados no devtools
+
+   <img src="./assets/img/image5-5.png">
+
+---
 6. A inclinação é m = (y₂ - y₁) / (x₂ - x₁). Encontre a inclinação entre o ponto (2, 2) e o ponto (6, 10).
+
+ 
+## Resultados no devtools
+
+   <img src="./assets/img/image6-6.png">
+
+---
 
 7. Compare a inclinação das duas questões acima.
 
+## Resultados no devtools
+
+   <img src="./assets/img/image7-7.png">
+
+---
+
 8. Calcule o valor de y (y = x² + 6x + 9). Tente usar diferentes valores de x e descubra para qual valor de x y é igual a 0.
+
+## Resultados no devtools
+
+   <img src="./assets/img/image8-8.png">
+
+---
 
 9. Escreva um script que solicite ao usuário que insira horas e a taxa por hora. Calcule o pagamento da pessoa.
 
@@ -127,8 +176,19 @@
    Seu ganho semanal é 1120
    ```
 
+## Resultados no devtools
+
+   <img src="./assets/img/image8-8.png">
+
+---
+
 10. Se o comprimento do seu nome for maior que 7, diga que seu nome é longo, caso contrário, diga que seu nome é curto.
 
+## Resultados no devtools
+
+   <img src="./assets/img/image10.png">
+
+---
 11. Compare o comprimento do seu primeiro nome e do seu sobrenome e você deve obter a seguinte saída:
 
     ```js
@@ -139,6 +199,12 @@
     ```sh
     Seu primeiro nome, Asabeneh, é mais longo que seu sobrenome, Yetayeh.
     ```
+
+## Resultados no devtools
+
+   <img src="./assets/img/image11.png">
+
+ ---   
 
 12. Declare duas variáveis, _myAge_ e _yourAge_, e atribua a elas valores iniciais e myAge e yourAge.
 
@@ -151,6 +217,12 @@
     Eu sou 225 anos mais velho que você.
     ```
 
+    ## Resultados no devtools
+
+   <img src="./assets/img/image12.png">
+
+ ---
+
 13. Usando prompt, obtenha o ano de nascimento do usuário e, se o usuário tiver 18 anos ou mais, permita que ele dirija; caso contrário, diga ao usuário para esperar uma certa quantidade de anos.
 
     ```sh
@@ -159,7 +231,14 @@
 
     Insira o ano de nascimento: 2005
     Você tem 15 anos. Você poderá dirigir depois de 3 anos.
+
     ```
+  ## Resultados no devtools
+
+   <img src="./assets/img/image13.png">
+   <img src="./assets/img/image13-1.png">
+
+---    
 
 14. Escreva um script que peça ao usuário para inserir o número de anos. Calcule o número de segundos que uma pessoa pode viver, assumindo que alguém vive apenas cem anos.
 
@@ -167,14 +246,24 @@
     Insira o número de anos que você vive: 100
     Você viveu 3153600000 segundos.
     ```
+ ## Resultados no devtools
+
+   <img src="./assets/img/image14.png">
 
 15. Crie um formato de hora legível usando o objeto Date:
    1. YYYY-MM-DD HH:mm
    2. DD-MM-YYYY HH:mm
    3. DD/MM/YYYY HH:mm
 
+ ## Resultados no devtools
+
+   <img src="./assets/img/image15.png">
+
 ### Exercícios: Nível 3
 
 1. Crie um formato de hora legível usando o objeto Date. A hora e o minuto devem ter sempre dois dígitos (7 horas devem ser 07 e 5 minutos devem ser 05):
    1. YYYY-MM-DD HH:mm, ex. 20120-01-02 07:05
 
+ ## Resultados no devtools
+
+   <img src="./assets/img/image16.png">
