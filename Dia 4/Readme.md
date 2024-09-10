@@ -28,6 +28,13 @@ Digite sua idade: 30
 Você é 5 anos mais velho do que eu.
 ```
 
+## Resultados no devtools
+
+<img src="./assets/img/image2.png"> 
+## Resultados no devtools
+
+---
+
 3. Se a for maior que b, retorne 'a é maior que b', caso contrário, 'a é menor que b'. Tente implementar de duas maneiras:
 
 - Usando if else
