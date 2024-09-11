@@ -50,6 +50,16 @@ Copy code
 Copy code
   4 é maior que 3
 ```
+<
+## Resultados no devtools
+ 
+ ### - Usando if else
+<img src="./assets/img/image3.png"> 
+
+ ### - Usando operador ternário
+<img src="./assets/img/image3-1.png"> 
+
+---
 
 4. Números pares são divisíveis por 2 e o resto é zero. Como você verifica se um número é par ou ímpar usando JavaScript?
 
@@ -62,6 +72,12 @@ Digite um número: 2
 Digite um número: 9
 9 é um número ímpar.
 ```
+
+## Resultados no devtools
+ 
+<img src="./assets/img/image4.png"> 
+
+---
 
 ### Exercícios: Nível 2
 1. Escreva um código que atribua notas aos alunos de acordo com suas pontuações:
