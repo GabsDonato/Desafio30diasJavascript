@@ -84,18 +84,107 @@ Claro! Aqui está a tradução do README para o português:
 
 ---
 11. Altere o nome de cada empresa para maiúsculas uma por uma e imprima-os;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image10.png">
+
+---
+
 12. Imprima o array como uma frase: Facebook, Google, Microsoft, Apple, IBM, Oracle e Amazon são grandes empresas de TI;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image11.png">
+
+---
+
 13. Verifique se uma certa empresa existe no array itCompanies. Se existir, retorne a empresa; caso contrário, retorne que a empresa _não foi encontrada_;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image12.png">
+
+---
+
 14. Filtre empresas que tenham mais de uma letra 'o' sem usar o método filter;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image13.png">
+
+---
+
 15. Ordene o array usando o método _sort()_;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image14.png">
+
+---
+
 16. Inverta o array usando o método _reverse()_;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image15.png">
+
+---
+
 17. Extraia as primeiras 3 empresas do array;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image16.png">
+
+---
+
 18. Extraia as últimas 3 empresas do array;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image17.png">
+---
+
 19. Extraia a(s) empresa(s) de TI do meio do array;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image18.png">
+
+---
+
 20. Remova a primeira empresa de TI do array;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image19.png">
+
+---
+
 21. Remova a(s) empresa(s) de TI do meio do array;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image20.png">
+
+---
+
 22. Remova a última empresa de TI do array;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image21.png">
+
+---
+
 23. Remova todas as empresas de TI;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image22.png">
+
+---
 
 ### Exercício: Nível 2
 
