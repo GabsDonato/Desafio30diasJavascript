@@ -25,4 +25,20 @@ const mixedDataTypes = [
      {Pais: 'Brasil', cidade: 'São paulo'},
      {Qualidades: ['Cozinheiro','Esportista','Familiar'] }
 ]
-    console.log(mixedDataTypes)
+    console.log(mixedDataTypes);
+
+//6. Declare uma variável de array chamada itCompanies e atribua os valores iniciais Facebook, Google, Microsoft, Apple, IBM, Oracle e Amazon;
+//7. Imprima o array usando _console.log()_;
+//8. Imprima o número de empresas no array;
+//9. Imprima a primeira empresa, a do meio e a última empresa;
+    
+    
+    var itCompanies = ['Facebook','Google','Microsoft','Apple','IBM','Oracle','Amazon']
+    console.log(itCompanies[0]) 
+    console.log(itCompanies[1])  
+    console.log(itCompanies[2]) 
+    console.log(itCompanies[3]) 
+    console.log(itCompanies[4]) 
+    console.log(itCompanies[5])
+    console.log(itCompanies[6]);     
+

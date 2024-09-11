@@ -43,11 +43,46 @@ Claro! Aqui está a tradução do README para o português:
 <img src="./assets/imgs/image5.png">
 
 ---
+
 6. Declare uma variável de array chamada itCompanies e atribua os valores iniciais Facebook, Google, Microsoft, Apple, IBM, Oracle e Amazon;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image6.png">
+
+---
+
 7. Imprima o array usando _console.log()_;
+ 
+## Resultados no devtools
+
+<img src="./assets/imgs/image6.png">
+
+---
+
 8. Imprima o número de empresas no array;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image7.png">
+
+---
+
 9. Imprima a primeira empresa, a do meio e a última empresa;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image8.png">
+
+---
+
 10. Imprima cada empresa;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image9.png">
+
+---
 11. Altere o nome de cada empresa para maiúsculas uma por uma e imprima-os;
 12. Imprima o array como uma frase: Facebook, Google, Microsoft, Apple, IBM, Oracle e Amazon são grandes empresas de TI;
 13. Verifique se uma certa empresa existe no array itCompanies. Se existir, retorne a empresa; caso contrário, retorne que a empresa _não foi encontrada_;
