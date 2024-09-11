@@ -154,3 +154,7 @@ Copy code
 
 
 2. Escreva um programa que informe o número de dias em um mês, considerando anos bissextos.
+
+## Resultados no devtools
+ 
+<img src="./assets/img/image9.png"> 
