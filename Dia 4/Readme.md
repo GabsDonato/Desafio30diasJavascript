@@ -88,12 +88,24 @@ Digite um número: 9
 - 50-59: D
 - 0-49: F
 
+## Resultados no devtools
+ 
+<img src="./assets/img/image5.png"> 
+
+---
+
 2. Verifique se a estação do ano é Outono, Inverno, Primavera ou Verão. Se a entrada do usuário for:
 
 - Setembro, Outubro ou Novembro, a estação é Outono.
 - Dezembro, Janeiro ou Fevereiro, a estação é Inverno.
 - Março, Abril ou Maio, a estação é Primavera.
 - Junho, Julho ou Agosto, a estação é Verão.
+
+## Resultados no devtools
+ 
+<img src="./assets/img/image6.png"> 
+
+---
 
 3. Verifique se um dia é fim de semana ou um dia útil. Seu script deve receber o dia como entrada.
 

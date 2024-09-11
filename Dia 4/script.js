@@ -85,5 +85,62 @@ if (numeros % 2 === 0) {
     console.log(`${numeros} é um número ímpar`);
 } */
 
+/*  1. Escreva um código que atribua notas aos alunos de acordo com suas pontuações:
+
+- 80-100: A
+- 70-89: B
+- 60-69: C
+- 50-59: D
+- 0-49: F */
+/*
+let notas = parseInt(prompt("Digite sua nota:"));
+
+if (notas >= 90 && notas <= 100) {
+    console.log('Você tirou nota: A');
+} else if (notas >= 80 && notas <= 89) {
+    console.log('Você tirou nota: B');
+} else if (notas >= 70 && notas <= 79) {
+    console.log('Você tirou nota: C');
+} else if (notas >= 60 && notas <= 69) {
+    console.log('Você tirou nota: D');
+} else {
+    console.log('Você tirou nota: F');
+} */
+
+/* 2. Verifique se a estação do ano é Outono, Inverno, Primavera ou Verão. Se a entrada do usuário for:
+
+- Setembro, Outubro ou Novembro, a estação é Outono.
+- Dezembro, Janeiro ou Fevereiro, a estação é Inverno.
+- Março, Abril ou Maio, a estação é Primavera.
+- Junho, Julho ou Agosto, a estação é Verão.
+ */
+
+/*let estaçãoInput = prompt('Digite um mês: ')
+let mes = estaçãoInput.toLowerCase()
+
+switch (mes) {
+    case 'setembro':
+    case 'outubro':
+    case 'novembro':
+        console.log('A estação é Outono');
+        break;
+    case 'dezembro':
+    case 'janeiro':
+    case 'fevereiro':
+        console.log('A estação é Inverno');
+        break;
+    case 'março':
+    case 'abril':
+    case 'maio':
+        console.log('A estação é Primavera');
+        break;
+    case 'junho':
+    case 'julho':
+    case 'agosto':
+        console.log('A estação é Verão');
+        break;
+    default:
+        console.log('Este não é um mês válido');
+} */
 
 
