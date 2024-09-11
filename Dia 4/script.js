@@ -142,5 +142,37 @@ switch (mes) {
     default:
         console.log('Este não é um mês válido');
 } */
+/*
+        3. Verifique se um dia é fim de semana ou um dia útil. Seu script deve receber o dia como entrada.
 
+        ```sh
+        Copy code
+            Qual é o dia hoje? Sábado
+            Sábado é um fim de semana.
+        
+            Qual é o dia hoje? sabado
+            Sábado é um fim de semana.
+        
+            Qual é o dia hoje? Sexta-feira
+            Sexta-feira é um dia útil.
+        
+            Qual é o dia hoje? seXta-feIRa
+            Sexta-feira é um dia útil.
+        ```
+*/        
 
+        const dias = prompt('Qual é o dia de hoje?')
+        
+        switch(dias){
+            case 'Segunda-feira':
+            case 'Terça-feira':
+            case 'Quarta-feira':
+            case 'Quinta-feira':
+            case 'Sexata-feira':
+            console.log(`${dias} é um dia útil.`)
+            break
+            case 'Sábado':
+            case 'Domingo':
+            console.log(`${dias} é um fim de semana.`)
+            break
+        }

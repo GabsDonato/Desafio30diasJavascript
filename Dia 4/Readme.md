@@ -123,6 +123,11 @@ Copy code
     Qual é o dia hoje? seXta-feIRa
     Sexta-feira é um dia útil.
 ```
+## Resultados no devtools
+ 
+<img src="./assets/img/image7.png"> 
+
+---
 
 ### Exercícios: Nível 3
 
