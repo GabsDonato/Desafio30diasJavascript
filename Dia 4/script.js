@@ -160,7 +160,7 @@ switch (mes) {
             Sexta-feira é um dia útil.
         ```
 */        
-
+/*
         const dias = prompt('Qual é o dia de hoje?')
         
         switch(dias){
@@ -175,4 +175,89 @@ switch (mes) {
             case 'Domingo':
             console.log(`${dias} é um fim de semana.`)
             break
-        }
+        } */
+
+/* 1. Escreva um programa que informe o número de dias em um mês.
+
+```sh
+Copy code
+  Digite um mês: Janeiro
+  Janeiro tem 31 dias.
+
+  Digite um mês: JANEIRO
+  Janeiro tem 31 dias.
+
+  Digite um mês: Fevereiro
+  Fevereiro tem 28 dias.
+
+  Digite um mês: feVereiro
+  Fevereiro tem 28 dias.
+```   */       
+
+/* function diasNoMes(mes) {
+    const meses = {
+        janeiro: 31,
+        fevereiro: 28, 
+        março: 31,
+        abril: 30,
+        maio: 31,
+        junho: 30,
+        julho: 31,
+        agosto: 31,
+        setembro: 30,
+        outubro: 31,
+        novembro: 30,
+        dezembro: 31
+    };
+
+    return meses[mes.toLowerCase()] || 'Mês inválido';
+}
+
+const mesInput = prompt('Digite um mês:');
+
+const dias = diasNoMes(mesInput);
+
+if (dias === 'Mês inválido') {
+    console.log(dias);
+} else {
+    console.log(`${mesInput.charAt(0).toUpperCase() + mesInput.slice(1).toLowerCase()} tem ${dias} dias.`); 
+}
+*/
+
+//2. Escreva um programa que informe o número de dias em um mês, considerando anos bissextos.
+
+function isBissexto(ano) {
+    return (ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0);
+}
+
+function diasNoMes(mes, ano) {
+    const meses = {
+        janeiro: 31,
+        fevereiro: isBissexto(ano) ? 29 : 28,
+        março: 31,
+        abril: 30,
+        maio: 31,
+        junho: 30,
+        julho: 31,
+        agosto: 31,
+        setembro: 30,
+        outubro: 31,
+        novembro: 30,
+        dezembro: 31
+    };
+
+    return meses[mes.toLowerCase()] || 'Mês inválido';
+}
+
+const mesInput = prompt('Digite um mês:');
+const anoInput = parseInt(prompt('Digite o ano:'));
+
+const dias = diasNoMes(mesInput, anoInput);
+
+if (dias === 'Mês inválido') {
+    console.log(dias);
+} else {
+    console.log(`${mesInput.charAt(0).toUpperCase() + mesInput.slice(1).toLowerCase()} tem ${dias} dias.`);
+}
+
+

@@ -147,4 +147,10 @@ Copy code
   Digite um mês: feVereiro
   Fevereiro tem 28 dias.
 ```  
+
+## Resultados no devtools
+ 
+<img src="./assets/img/image8.png"> 
+
+
 2. Escreva um programa que informe o número de dias em um mês, considerando anos bissextos.
