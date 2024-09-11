@@ -215,6 +215,13 @@ const webTechs = [
   'MongoDB'
 ]
 ```
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image23.png">
+
+---
+
 2. Primeiro remova toda a pontuação e converta a string em um array e conte o número de palavras no array:
 
     ```js
@@ -230,6 +237,12 @@ const webTechs = [
     13
     ```
 
+## Resultados no devtools
+
+<img src="./assets/imgs/image24.png">
+
+---
+
 3. No carrinho de compras, adicione, remova e edite itens:
 
     ```js
@@ -241,8 +254,33 @@ const webTechs = [
    - Remova 'Mel' se você for alérgico ao mel;
    - Modifique Chá para 'Chá Verde';
 
+## Resultados no devtools
+
+<img src="./assets/imgs/image25.png">
+
+---   
+
 4. No array countries, verifique se 'Etiópia' existe no array; se existir, imprima 'ETIÓPIA'. Se não existir, adicione à lista de países;
+
+
+![alt text](image.png)
+
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image25.png">
+
+---
+
+
 5. No array webTechs, verifique se Sass existe no array e, se existir, imprima 'Sass é um pré-processador CSS'. Se não existir, adicione Sass ao array e imprima o array;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image27.png">
+
+---
+
 6. Concatene as seguintes duas variáveis e armazene na variável fullStack:
 
     ```js
@@ -255,6 +293,12 @@ const webTechs = [
     ```sh
     ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"]
     ```
+
+  ## Resultados no devtools
+
+<img src="./assets/imgs/image28.png">
+
+---
 
 ### Exercício: Nível 3
 
