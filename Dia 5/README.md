@@ -5,10 +5,44 @@ Claro! Aqui está a tradução do README para o português:
 ### Exercício: Nível 1
 
 1. Declare um _array vazio_;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image.png">
+
+---
+
 2. Declare um array com mais de 5 elementos;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image2.png">
+
+---
+
 3. Encontre o comprimento do seu array;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image3.png">
+
+---
+
 4. Obtenha o primeiro item, o item do meio e o último item do array;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image4.png">
+
+---
+
 5. Declare um array chamado _mixedDataTypes_, coloque diferentes tipos de dados no array e encontre o comprimento do array. O tamanho do array deve ser maior que 5;
+
+## Resultados no devtools
+
+<img src="./assets/imgs/image5.png">
+
+---
 6. Declare uma variável de array chamada itCompanies e atribua os valores iniciais Facebook, Google, Microsoft, Apple, IBM, Oracle e Amazon;
 7. Imprima o array usando _console.log()_;
 8. Imprima o número de empresas no array;
