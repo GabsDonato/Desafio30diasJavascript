@@ -309,11 +309,42 @@ const webTechs = [
     ```
 
     - Ordene o array e encontre a idade mínima e máxima;
+
+     ## Resultados no devtools
+
+    <img src="./assets/imgs/image29.png">
+
     - Encontre a idade mediana (um item do meio ou dois itens do meio divididos por dois);
     - Encontre a idade média (todos os itens divididos pelo número de itens);
     - Encontre a faixa etária (máxima menos mínima);
     - Compare o valor de (mínimo - média) e (máximo - média), use o método _abs()_;
 
+    ## Resultados no devtools
+
+    <img src="./assets/imgs/image30.png">
+
+  ---
+
 2. Extraia os primeiros dez países do array [countries array](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js);
+
+  ## Resultados no devtools
+
+    <img src="./assets/imgs/image31.png">
+
+---
+
 3. Encontre o(s) país(es) do meio no [array countries](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js);
+
+ ## Resultados no devtools
+
+    <img src="./assets/imgs/image32.png">
+
+---
+
 4. Divida o array de países em dois arrays iguais, se for par. Se o array de países não for par, coloque um país a mais na primeira metade.
+
+## Resultados no devtools
+
+    <img src="./assets/imgs/image33.png">
+
+---
