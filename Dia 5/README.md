@@ -1,4 +1,4 @@
-Claro! Aqui está a tradução do README para o português:
+
 
 ## 💻 Dia 5: Exercícios
 
