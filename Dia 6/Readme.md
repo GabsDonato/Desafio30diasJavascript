@@ -34,10 +34,20 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
 
 ## Resultados no devtools
 
-<img src="">
+<img src="./assets/img/image.png">
 
 2. Itere de 10 a 0 usando o loop for, faça o mesmo usando o loop while e o loop do while.
+
+## Resultados no devtools
+
+<img src="./assets/img/image2.png">
+
 3. Itere de 0 a n usando o loop for.
+
+## Resultados no devtools
+
+<img src="./assets/img/image3.png">
+
 4. Escreva um loop que faça o seguinte padrão usando console.log():
 
    ```js
@@ -49,6 +59,10 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
        ######
        #######
    ```
+
+## Resultados no devtools
+
+<img src="./assets/img/image4.png">
 
 5. Use um loop para imprimir o seguinte padrão:
 
