@@ -80,6 +80,10 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
    10 x 10 = 100
    ```
 
+  ## Resultados no devtools
+
+ <img src="./assets/img/image5.png">
+
 6. Usando um loop, imprima o seguinte padrão:
 
    ```sh
@@ -98,13 +102,34 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
    ```
 
 7. Use o loop for para iterar de 0 a 100 e imprimir apenas os números pares.
+
+  ## Resultados no devtools
+
+ <img src="./assets/img/image6.png">
+
+
 8. Use o loop for para iterar de 0 a 100 e imprimir apenas os números ímpares.
+
+ ## Resultados no devtools
+
+ <img src="./assets/img/image7.png">
+
 9. Use o loop for para iterar de 0 a 100 e imprimir apenas os números primos.
+
+ ## Resultados no devtools
+
+ <img src="./assets/img/image8.png">
+
 10. Use o loop for para iterar de 0 a 100 e imprimir a soma de todos os números.
 
     ```sh
     A soma de todos os números de 0 a 100 é 5050.
     ```
+
+ ## Resultados no devtools
+
+ <img src="./assets/img/image9.png">
+
 
 11. Use o loop for para iterar de 0 a 100 e imprimir a soma de todos os pares e a soma de todos os ímpares.
 
@@ -112,19 +137,36 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
     A soma de todos os pares de 0 a 100 é 2550. E a soma de todos os ímpares de 0 a 100 é 2500.
     ```
 
+ ## Resultados no devtools
+
+ <img src="./assets/img/image10.png">
+
 12. Use o loop for para iterar de 0 a 100 e imprimir a soma de todos os pares e a soma de todos os ímpares. Imprima a soma dos pares e a soma dos ímpares como um array.
 
     ```sh
       [2550, 2500]
     ```
 
+## Resultados no devtools
+
+ <img src="./assets/img/image11.png">
+
 13. Desenvolva um pequeno script que gere um array de 5 números aleatórios.
+
 14. Desenvolva um pequeno script que gere um array de 5 números aleatórios e os números devem ser únicos.
+
+## Resultados no devtools
+
+ <img src="./assets/img/image12.png">
+
 15. Desenvolva um pequeno script que gere um ID aleatório de seis caracteres:
 
     ```sh
     5j2khz
     ```
+## Resultados no devtools
+
+ <img src="./assets/img/image13.png">
 
 ### Exercícios: Nível 2
 
@@ -137,6 +179,9 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
     ```sh
       xkqci4utda1lmbelpkm03rba
     ```
+## Resultados no devtools
+
+ <img src="./assets/img/image14.png">
 
 2. Escreva um script que gere um número hexadecimal aleatório.
 
@@ -144,11 +189,20 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
     '#ee33df'
     ```
 
+## Resultados no devtools
+
+ <img src="./assets/img/image15.png">
+
 3. Escreva um script que gere um número de cor RGB aleatório.
 
     ```sh
     rgb(240,180,80)
     ```
+
+
+## Resultados no devtools
+
+ <img src="./assets/img/image16.png">
 
 4. Usando o array de países acima, crie o seguinte novo array.
 
@@ -156,11 +210,19 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
     ["ALBÂNIA", "BOLÍVIA", "CANADÁ", "DINAMARCA", "ETIÓPIA", "FINLÂNDIA", "ALEMANHA", "HUNGRIA", "IRLANDA", "JAPÃO", "QUÊNIA"]
     ```
 
+  ## Resultados no devtools
+
+ <img src="./assets/img/image17.png">
+
 5. Usando o array de países acima, crie um array com o comprimento dos nomes dos países.
 
     ```sh
     [7, 7, 6, 7, 8, 7, 7, 7, 7, 5, 5]
     ```
+
+  ## Resultados no devtools
+
+ <img src="./assets/img/image18.png">
 
 6. Use o array de países para criar o seguinte array de arrays:
 
@@ -181,17 +243,31 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
     ]
     ```
 
+ ## Resultados no devtools
+
+ <img src="./assets/img/image19.png">
+
+
 7. No array de países acima, verifique se há um país ou países contendo a palavra 'land'. Se houver países contendo 'land', imprima-os como um array. Se não houver países contendo a palavra 'land', imprima 'Todos esses países estão sem land'.
 
     ```sh
     ['Finlândia', 'Irlanda', 'Islândia']
     ```
 
+    
+ ## Resultados no devtools
+
+ <img src="./assets/img/image20.png">
+
 8. No array de países acima, verifique se há um país ou países que terminam com o sufixo 'ia'. Se houver países que terminam com 'ia', imprima-os como um array. Se não houver países contendo 'ia', imprima 'Esses são os países que terminam sem ia'.
 
     ```sh
     ['Albânia', 'Bolívia', 'Etiópia']
     ```
+
+  ## Resultados no devtools
+
+ <img src="./assets/img/image21.png">
 
 9. Usando o array de países acima, encontre o país com o maior número de caracteres.
 
@@ -205,16 +281,45 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
     ['Japão', 'Quênia']
     ```
 
+ ## Resultados no devtools
+  ### resultado dos exercicios 9 e 10
+ <img src="./assets/img/image22.png">
+
 11. Encontre a palavra mais longa no array de tecnologias web.
+
+## Resultados no devtools
+
+ <img src="./assets/img/image23.png">
+
 12. Use o array de tecnologias web para criar o seguinte array de arrays:
 
     ```sh
     [["HTML", 4], ["CSS", 3], ["JavaScript", 10], ["React", 5], ["Redux", 5], ["Node", 4], ["MongoDB", 7]]
     ```
 
+## Resultados no devtools
+
+ <img src="./assets/img/image24.png">
+
 13. Um aplicativo criado usando MongoDB, Express, React e Node é chamado de aplicativo MERN stack. Crie o acrônimo MERN usando o array mernStack.
+
+## Resultados no devtools
+
+ <img src="./assets/img/image25.png">
+
 14. Itere pelo array ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"] usando um loop for ou for of e imprima os itens.
+
+## Resultados no devtools
+
+ <img src="./assets/img/image26.png">
+
 15. Este é um array de frutas, ['banana', 'laranja', 'manga', 'limão'] inverta a ordem usando um loop sem usar o método reverse.
+
+## Resultados no devtools
+
+ <img src="./assets/img/image27.png">
+
+
 16. Imprima todos os elementos do array conforme mostrado abaixo.
 
     ```js
@@ -233,6 +338,9 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
       EXPRESS
       MONGODB
     ```
+  ## Resultados no devtools
+
+ <img src="./assets/img/image27.png">
 
 ### Exercícios: Nível 3
 
