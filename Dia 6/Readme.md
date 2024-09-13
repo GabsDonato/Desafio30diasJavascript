@@ -348,11 +348,29 @@ const mernStack = ['MongoDB', 'Express', 'React', 'Node']
 2. Arrays são mutáveis. Crie uma cópia do array que não modifique o original. Classifique o array copiado e armazene em uma variável chamada sortedCountries.
 3. Classifique os arrays webTechs e mernStack.
 4. Extraia todos os países que contêm a palavra 'land' do [array de países](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js) e imprima como um array.
+
+## Resultados no devtools
+
+ <img src="./assets/img/image29.png">
+
 5. Encontre o país com o maior número de caracteres no [array de países](https://github.com/Asabeneh/30DaysOfJavaScript/tree/master/data/countries.js).
+
+## Resultados no devtools
+
+ <img src="./assets/img/image30.png">
+
 6. Extraia todos os países que contêm a palavra 'land' do [array de países](https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/data/countries.js)
+
+## Resultados no devtools
+
+ <img src="./assets/img/image31.png">
 
 7. Extraia todos os países que contêm apenas quatro caracteres da matriz de países [array de países](https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/data/countries.js) e imprima-os como uma matriz
 
 8. Extraia todos os países que contêm duas ou mais palavras da matriz de países [array de países](https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/data/countries.js)  e imprima-os como uma matriz
 
 9. Inverta a [matriz de países](https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/data/countries.js) e coloque cada país em maiúscula e armazene-o como uma matriz
+
+## Resultados no devtools
+
+ <img src="./assets/img/image32.png">

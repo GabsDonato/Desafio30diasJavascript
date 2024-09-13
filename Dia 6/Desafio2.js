@@ -40,7 +40,7 @@ rgb(240,180,80)
     ```sh
     ["ALBÂNIA", "BOLÍVIA", "CANADÁ", "DINAMARCA", "ETIÓPIA", "FINLÂNDIA", "ALEMANHA", "HUNGRIA", "IRLANDA", "JAPÃO", "QUÊNIA"]
     ``` 
-*/
+
     const countries = [
         'Albânia',
         'Bolívia',
