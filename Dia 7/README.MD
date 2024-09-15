@@ -111,6 +111,11 @@
 ### Exercícios: Nível 2
 
 1. Uma equação linear é calculada da seguinte forma: _ax + by + c = 0_. Escreva uma função que calcule o valor de uma equação linear, _solveLinEquation_.
+
+# Resultados no devtools
+
+<img src="./assets/img/image16.png">
+
 2. Uma equação quadrática é calculada da seguinte forma: _ax² + bx + c = 0_. Escreva uma função que calcule o(s) valor(es) de uma equação quadrática, _solveQuadEquation_.
 
     ```js
@@ -122,7 +127,18 @@
     console.log(solveQuadratic(1, -1, 0)) // {1, 0}
     ```
 
+    # Resultados no devtools
+
+    <img src="./assets/img/image16.png">
+
+
 3. Declare uma função chamada _printArray_. Ela recebe um array como parâmetro e imprime cada valor do array.
+
+
+    # Resultados no devtools
+
+    <img src="./assets/img/image17.png">
+
 4. Escreva uma função chamada _showDateTime_ que mostre a hora no formato: 08/01/2020 04:08 usando o objeto Date.
 
     ```sh
@@ -130,12 +146,21 @@
     08/01/2020 04:08
     ```
 
+    
+    # Resultados no devtools
+
+    <img src="./assets/img/image18.png">
+
 5. Declare uma função chamada _swapValues_. Essa função troca o valor de x por y.
 
     ```js
     swapValues(3, 4) // x => 4, y => 3
     swapValues(4, 5) // x => 5, y => 4
     ```
+
+     # Resultados no devtools
+
+    <img src="./assets/img/image19.png">
 
 6. Declare uma função chamada _reverseArray_. Ela recebe um array como parâmetro e retorna o array invertido (não use métodos).
 
@@ -146,12 +171,48 @@
     //['C', 'B', 'A']
     ```
 
+  # Resultados no devtools
+
+    <img src="./assets/img/image20.png">
+
 7. Declare uma função chamada _capitalizeArray_. Ela recebe um array como parâmetro e retorna o array com os itens capitalizados.
+
+
+  # Resultados no devtools
+
+    <img src="./assets/img/image21.png">
+
 8. Declare uma função chamada _addItem_. Ela recebe um item como parâmetro e retorna um array após adicionar o item.
+
+ # Resultados no devtools
+
+![alt text](image.png)
+    <img src="./assets/img/image22.png">
+
 9. Declare uma função chamada _removeItem_. Ela recebe um índice como parâmetro e retorna um array após remover o item no índice especificado.
+
+ # Resultados no devtools
+
+    <img src="./assets/img/image23.png">
+
 10. Declare uma função chamada _sumOfNumbers_. Ela recebe um número como parâmetro e soma todos os números dentro desse intervalo.
+
+ # Resultados no devtools
+![alt text](image-1.png)
+    <img src="./assets/img/image24.png">
+
 11. Declare uma função chamada _sumOfOdds_. Ela recebe um número como parâmetro e soma todos os números ímpares dentro desse intervalo.
+
+ # Resultados no devtools
+![alt text](image.png)
+    <img src="./assets/img/image25.png">
+
 12. Declare uma função chamada _sumOfEven_. Ela recebe um número como parâmetro e soma todos os números pares dentro desse intervalo.
+
+ # Resultados no devtools
+![alt text](image.png)
+    <img src="./assets/img/image26.png">
+
 13. Declare uma função chamada _evensAndOdds_. Ela recebe um número inteiro positivo como parâmetro e conta o número de pares e ímpares no número.
 
     ```sh
@@ -160,6 +221,10 @@
     O número de pares é 51.
     ```
 
+ # Resultados no devtools
+![alt text](image-1.png)
+<img src="./assets/img/image27.png">
+
 14. Escreva uma função que receba qualquer número de argumentos e retorne a soma dos argumentos.
 
     ```js
@@ -167,8 +232,25 @@
     sum(1, 2, 3, 4) // -> 10
     ```
 
+    
+ # Resultados no devtools
+![alt text](image.png)
+<img src="./assets/img/image28.png">
+
 15. Escreva uma função que gere um _randomUserIp_.
+
+
+ # Resultados no devtools
+![alt text](image-1.png)
+<img src="./assets/img/image29.png">
+
 16. Escreva uma função que gere um _randomMacAddress_.
+
+
+ # Resultados no devtools
+![alt text](image.png)
+<img src="./assets/img/image30.png">
+
 17. Declare uma função chamada _randomHexaNumberGenerator_. Quando essa função for chamada, ela gera um número hexadecimal aleatório. A função deve retornar o número hexadecimal.
 
     ```sh
@@ -176,12 +258,22 @@
     '#ee33df'
     ```
 
+    
+ # Resultados no devtools
+![alt text](image-1.png)
+<img src="./assets/img/image31.png">
+
 18. Declare uma função chamada _userIdGenerator_. Quando essa função for chamada, ela gera um ID de sete caracteres. A função deve retornar o ID.
 
     ```sh
     console.log(userIdGenerator());
     41XTDbE
     ```
+
+
+ # Resultados no devtools
+![alt text](image.png)
+<img src="./assets/img/image32.png">
 
 ### Exercícios: Nível 3
 
