@@ -1,24 +1,5 @@
 /* 
-### Exercícios: Nível 3
-
-1. Modifique a função _userIdGenerator_. Declare uma função chamada _userIdGeneratedByUser_. Ela não recebe parâmetros, mas solicita dois inputs usando prompt(). Um dos inputs é o número de caracteres e o segundo é o número de IDs que devem ser gerados.
-
-    ```sh
-    userIdGeneratedByUser()
-    'kcsy2
-    SMFYb
-    bWmeq
-    ZXOYh
-    2Rgxf
-    '
-    userIdGeneratedByUser()
-    '1GCSgPLMaBAVQZ26
-    YD7eFwNQKNs7qXaT
-    ycArC5yrRupyG00S
-    UbGxOFI7UXSWAyKN
-    dIV0SSUTgAdKwStr
-    '
-    ```
+### Exercícios: Nível 3
 
 2. Escreva uma função chamada _rgbColorGenerator_ que gere cores RGB.
 
@@ -88,3 +69,47 @@ sevenRandomNumbers()
 [1, 4, 5, 7, 9, 8, 0]
 
 19. Escreva uma função chamada reverseCountries, que recebe um array de países, faz uma cópia do array e retorna o array invertido. */
+
+/* 1. Modifique a função _userIdGenerator_. Declare uma função chamada _userIdGeneratedByUser_. Ela não recebe parâmetros, mas solicita dois inputs usando prompt(). Um dos inputs é o número de caracteres e o segundo é o número de IDs que devem ser gerados.
+
+    ```sh
+    userIdGeneratedByUser()
+    'kcsy2
+    SMFYb
+    bWmeq
+    ZXOYh
+    2Rgxf
+    '
+    userIdGeneratedByUser()
+    '1GCSgPLMaBAVQZ26
+    YD7eFwNQKNs7qXaT
+    ycArC5yrRupyG00S
+    UbGxOFI7UXSWAyKN
+    dIV0SSUTgAdKwStr
+    '
+    ```*/
+
+
+function userIdGeneratedByUser() {
+    const numChars = parseInt(prompt("Digite o número de caracteres para cada ID:"));
+    
+    const numIds = parseInt(prompt("Digite o número de IDs a serem gerados:"));
+    
+    /
+    function generateRandomId(length) {
+        const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+        let result = '';
+        for (let i = 0; i < length; i++) {
+            const randomIndex = Math.floor(Math.random() * chars.length);
+            result += chars[randomIndex];
+        }
+        return result;
+    }
+
+  
+    let ids = [];
+    for (let i = 0; i < numIds; i++) {
+        ids.push(generateRandomId(numChars));
+    }
+    
+ 
