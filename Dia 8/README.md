@@ -8,6 +8,10 @@
 4. Obtenha os valores das propriedades `name`, `legs`, `color`, `age` e `bark` do objeto `dog`.
 5. Adicione novas propriedades ao objeto `dog`: `breed` e `getDogInfo`.
 
+<img src="./assets/img/image.png">
+<img src="./assets/img/image1.png">
+<img src="./assets/img/image2.png">
+
 **Exercícios: Nível 2**
 
 1. Encontre a pessoa que possui mais habilidades no objeto `users`.
