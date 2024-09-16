@@ -198,19 +198,19 @@
 10. Declare uma função chamada _sumOfNumbers_. Ela recebe um número como parâmetro e soma todos os números dentro desse intervalo.
 
  # Resultados no devtools
-![alt text](image-1.png)
+
     <img src="./assets/img/image24.png">
 
 11. Declare uma função chamada _sumOfOdds_. Ela recebe um número como parâmetro e soma todos os números ímpares dentro desse intervalo.
 
  # Resultados no devtools
-![alt text](image.png)
+
     <img src="./assets/img/image25.png">
 
 12. Declare uma função chamada _sumOfEven_. Ela recebe um número como parâmetro e soma todos os números pares dentro desse intervalo.
 
  # Resultados no devtools
-![alt text](image.png)
+
     <img src="./assets/img/image26.png">
 
 13. Declare uma função chamada _evensAndOdds_. Ela recebe um número inteiro positivo como parâmetro e conta o número de pares e ímpares no número.
@@ -222,7 +222,7 @@
     ```
 
  # Resultados no devtools
-![alt text](image-1.png)
+
 <img src="./assets/img/image27.png">
 
 14. Escreva uma função que receba qualquer número de argumentos e retorne a soma dos argumentos.
@@ -234,21 +234,21 @@
 
     
  # Resultados no devtools
-![alt text](image.png)
+
 <img src="./assets/img/image28.png">
 
 15. Escreva uma função que gere um _randomUserIp_.
 
 
  # Resultados no devtools
-![alt text](image-1.png)
+
 <img src="./assets/img/image29.png">
 
 16. Escreva uma função que gere um _randomMacAddress_.
 
 
  # Resultados no devtools
-![alt text](image.png)
+
 <img src="./assets/img/image30.png">
 
 17. Declare uma função chamada _randomHexaNumberGenerator_. Quando essa função for chamada, ela gera um número hexadecimal aleatório. A função deve retornar o número hexadecimal.
@@ -260,7 +260,7 @@
 
     
  # Resultados no devtools
-![alt text](image-1.png)
+
 <img src="./assets/img/image31.png">
 
 18. Declare uma função chamada _userIdGenerator_. Quando essa função for chamada, ela gera um ID de sete caracteres. A função deve retornar o ID.
@@ -272,10 +272,12 @@
 
 
  # Resultados no devtools
-![alt text](image.png)
+
 <img src="./assets/img/image32.png">
 
-### Exercícios: Nível 3
+### Exercícios: Nível 3 
+
+# Esta parte ficou sem imagem já que foi codado através de um celular.
 
 1. Modifique a função _userIdGenerator_. Declare uma função chamada _userIdGeneratedByUser_. Ela não recebe parâmetros, mas solicita dois inputs usando prompt(). Um dos inputs é o número de caracteres e o segundo é o número de IDs que devem ser gerados.
 
