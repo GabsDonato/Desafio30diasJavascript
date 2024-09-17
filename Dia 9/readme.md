@@ -23,20 +23,58 @@ const products = [
 <img src="./assets/img/image.png">
 
 4. Use `forEach` para exibir cada nome no array `names`.
+
+<img src="./assets/img/image2.png">
+
 5. Use `forEach` para exibir cada número no array `numbers`.
+
+<img src="./assets/img/image3.png">
+
 6. Use `map` para criar um novo array alterando cada país para maiúsculas no array `countries`.
+
+<img src="./assets/img/image4.png">
+
 7. Use `map` para criar um array com o comprimento de cada país a partir do array `countries`.
+<img src="./assets/img/image5.png">
+
 8. Use `map` para criar um novo array alterando cada número para o seu quadrado no array `numbers`.
+
+<img src="./assets/img/image6.png">
+
 9. Use `map` para transformar cada nome em maiúsculas no array `names`.
+
+<img src="./assets/img/image7.png">
+
 10. Use `map` para mapear o array `products` para seus preços correspondentes.
+
+<img src="./assets/img/image8.png">
+
 11. Use `filter` para filtrar países que contenham "land".
+
+<img src="./assets/img/image9.png">
+
 12. Use `filter` para filtrar países que tenham seis caracteres.
+
+<img src="./assets/img/image10.png">
+
 13. Use `filter` para filtrar países com seis letras ou mais no array `countries`.
+
+<img src="./assets/img/image11.png">
+
 14. Use `filter` para filtrar países que comecem com 'E'.
+
+<img src="./assets/img/image12.png">
+
 15. Use `filter` para filtrar apenas os preços com valores.
+
+<img src="./assets/img/image13.png">
+
 16. Declare uma função chamada `getStringLists` que recebe um array como parâmetro e retorna um array contendo apenas itens de string.
+
 17. Use `reduce` para somar todos os números no array `numbers`.
+
 18. Use `reduce` para concatenar todos os países e produzir a seguinte frase: "Estônia, Finlândia, Suécia, Dinamarca, Noruega e Islândia são países da Europa do Norte".
+
 19. Explique a diferença entre `some` e `every`.
 20. Use `some` para verificar se alguns nomes têm comprimento maior que sete no array `names`.
 21. Use `every` para verificar se todos os países contêm a palavra "land".

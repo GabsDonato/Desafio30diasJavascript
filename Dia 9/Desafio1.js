@@ -4,19 +4,6 @@
 
 ```
 
-3. Use `forEach` para exibir cada país no array `countries`.
-4. Use `forEach` para exibir cada nome no array `names`.
-5. Use `forEach` para exibir cada número no array `numbers`.
-6. Use `map` para criar um novo array alterando cada país para maiúsculas no array `countries`.
-7. Use `map` para criar um array com o comprimento de cada país a partir do array `countries`.
-8. Use `map` para criar um novo array alterando cada número para o seu quadrado no array `numbers`.
-9. Use `map` para transformar cada nome em maiúsculas no array `names`.
-10. Use `map` para mapear o array `products` para seus preços correspondentes.
-11. Use `filter` para filtrar países que contenham "land".
-12. Use `filter` para filtrar países que tenham seis caracteres.
-13. Use `filter` para filtrar países com seis letras ou mais no array `countries`.
-14. Use `filter` para filtrar países que comecem com 'E'.
-15. Use `filter` para filtrar apenas os preços com valores.
 16. Declare uma função chamada `getStringLists` que recebe um array como parâmetro e retorna um array contendo apenas itens de string.
 17. Use `reduce` para somar todos os números no array `numbers`.
 18. Use `reduce` para concatenar todos os países e produzir a seguinte frase: "Estônia, Finlândia, Suécia, Dinamarca, Noruega e Islândia são países da Europa do Norte".
@@ -55,5 +42,54 @@ const products = [
 
 
 //3. Use `forEach` para exibir cada país no array `countries`.
-countries.forEach(countries => console.log(countries))
-console.log(countries)
+countries.forEach(countries => console.log(countries));
+console.log(countries);
+
+//4. Use `forEach` para exibir cada nome no array `names`.
+names.forEach(names => console.log(names));
+
+//5. Use `forEach` para exibir cada número no array `numbers`.
+numbers.forEach(numbers => console.log(numbers))
+
+//6. Use `map` para criar um novo array alterando cada país para maiúsculas no array `countries`.
+const Mcontries = countries.map((country) => country.toUpperCase());
+console.log(countries);
+
+//7. Use `map` para criar um array com o comprimento de cada país a partir do array `countries`.
+const lengths = countries.map((country) => country.length);
+console.log(lengths);
+
+//8. Use `map` para criar um novo array alterando cada número para o seu quadrado no array `numbers`.
+const numbersMude = numbers.map((num) => num * num);
+console.log(numbersMude);
+
+//9. Use `map` para transformar cada nome em maiúsculas no array `names`.
+const PriceProducts = products.map((product) => product.price);
+console.log(PriceProducts);
+
+//11. Use `filter` para filtrar países que contenham "land".
+const FilterPaises = countries.filter((country) =>
+country.includes('land')
+)
+console.log(FilterPaises);
+
+//12. Use `filter` para filtrar países que tenham seis caracteres.
+const SixCaracteres = countries.filter(
+  (country) => country.length === 6
+)
+console.log(SixCaracteres);
+
+//13. Use `filter` para filtrar países com seis letras ou mais no array `countries`.
+const SixOrMore =  countries.filter(
+  (country) => country.length >= 6
+)
+console.log(SixOrMore);
+
+//14. Use `filter` para filtrar países que comecem com 'E'.
+const countriesFirstE = countries.filter((country) => 
+country.startsWith('E'))
+console.log(countriesFirstE);
+
+//15. Use `filter` para filtrar apenas os preços com valores.
+const FilterPrice = products.filter((product) => product.price > 0);
+console.log(FilterPrice);
