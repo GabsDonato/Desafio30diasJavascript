@@ -1,21 +1,9 @@
 /***Exercícios: Nível 1**
 
 ```javascript
-const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand'];
-const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook'];
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const products = [
-  { product: 'banana', price: 3 },
-  { product: 'mango', price: 6 },
-  { product: 'potato', price: ' ' },
-  { product: 'avocado', price: 8 },
-  { product: 'coffee', price: 10 },
-  { product: 'tea', price: '' },
-];
+
 ```
 
-1. Explique a diferença entre `forEach`, `map`, `filter` e `reduce`.
-2. Defina uma função de callback antes de usá-la em `forEach`, `map`, `filter` ou `reduce`.
 3. Use `forEach` para exibir cada país no array `countries`.
 4. Use `forEach` para exibir cada nome no array `names`.
 5. Use `forEach` para exibir cada número no array `numbers`.
@@ -41,3 +29,31 @@ const products = [
 25. Use `findIndex` para encontrar a posição de Noruega. Se não existir no array, você deve obter -1.
 26. Use `findIndex` para encontrar a posição da Rússia. Se não existir no array, você deve obter -1.
 */
+
+
+//1. Explique a diferença entre `forEach`, `map`, `filter` e `reduce`.
+
+//forEach - usado somente com array, usa retorno de chamada
+//map - interage e modifica os elementos do array, pegauma função de retorno de chamada com elementos.
+//filter -filtra itens que preenchem as condições de filtragem e retorna uma nova matriz
+//reduce - recebe uma função de retorno de chamada recebe accumulator, current, e valor inicial opcionalcomoum parâmetro e retorna um valor unico
+
+//2. Defina uma função de callback antes de usá-la em `forEach`, `map`, `filter` ou `reduce`.
+      
+///const callback = countries
+const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand'];
+const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook'];
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const products = [
+  { product: 'banana', price: 3 },
+  { product: 'mango', price: 6 },
+  { product: 'potato', price: ' ' },
+  { product: 'avocado', price: 8 },
+  { product: 'coffee', price: 10 },
+  { product: 'tea', price: '' },
+];
+
+
+//3. Use `forEach` para exibir cada país no array `countries`.
+countries.forEach(countries => console.log(countries))
+console.log(countries)

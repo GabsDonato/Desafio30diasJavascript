@@ -19,6 +19,9 @@ const products = [
 1. Explique a diferença entre `forEach`, `map`, `filter` e `reduce`.
 2. Defina uma função de callback antes de usá-la em `forEach`, `map`, `filter` ou `reduce`.
 3. Use `forEach` para exibir cada país no array `countries`.
+
+<img src="./assets/img/image.png">
+
 4. Use `forEach` para exibir cada nome no array `names`.
 5. Use `forEach` para exibir cada número no array `numbers`.
 6. Use `map` para criar um novo array alterando cada país para maiúsculas no array `countries`.
