@@ -16,6 +16,8 @@
 
 1. Encontre a pessoa que possui mais habilidades no objeto `users`.
 
+<img src="./assets/img/image3.png">
+
 2. Conte o número de usuários logados e conte o número de usuários que têm 50 pontos ou mais no seguinte objeto:
 
 ```javascript
@@ -72,15 +74,28 @@ const users = {
 }
 ```
 
+
+<img src="./assets/img/image4.png">
+
 3. Encontre as pessoas que são desenvolvedores da stack MERN (MongoDB, Express, React, Node) no objeto `users`.
+
+<img src="./assets/img/image5.png">
 
 4. Adicione seu nome ao objeto `users` sem modificar o objeto `users` original.
 
+<img src="./assets/img/image5.png">
+
 5. Obtenha todas as chaves ou propriedades do objeto `users`.
+
+<img src="./assets/img/image6.png">
 
 6. Obtenha todos os valores do objeto `users`.
 
+<img src="./assets/img/image7.png">
+
 7. Use o objeto `countries` para imprimir o nome de um país, sua capital, populações e idiomas.
+
+<img src="./assets/img/image8.png">
 
 **Exercícios: Nível 3**
 
