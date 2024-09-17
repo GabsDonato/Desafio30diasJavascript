@@ -101,6 +101,8 @@ const users = {
 
 1. Crie um objeto literal chamado `personAccount`. Ele deve ter as propriedades `firstName`, `lastName`, `incomes`, `expenses` e métodos `totalIncome`, `totalExpense`, `accountInfo`, `addIncome`, `addExpense` e `accountBalance`. `Incomes` é um conjunto de rendimentos e suas descrições, e `expenses` é um conjunto de despesas e suas descrições.
 
+<img src="./assets/img/image9.png">
+
 **Perguntas 2, 3 e 4 são baseadas nos seguintes dois arrays: `users` e `products`:**
 
 ```javascript
@@ -187,5 +189,8 @@ c. A array `products` tem três elementos e cada um deles possui seis propriedad
 d. Crie uma função chamada `averageRating` que calcule a média das avaliações de um produto.
 
 e. Crie uma função chamada `likeProduct`. Essa função ajudará a curtir o produto se ele não tiver sido curtido e a remover o like se ele já tiver sido curtido.
+
+
+<img src="./assets/img/image10.png">
 
 ---

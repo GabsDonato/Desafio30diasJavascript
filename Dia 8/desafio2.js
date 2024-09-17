@@ -7,6 +7,7 @@
 3. Encontre as pessoas que são desenvolvedores da stack MERN (MongoDB, Express, React, Node) no objeto `users`.
  */
 
+
 const users = {
     Alex: {
       email: 'alex@alex.com',
@@ -63,21 +64,21 @@ const users = {
     }
   }
 
- /* const userValues = Object.values(users);
+ const userValues = Object.values(users);
   const personWithMostSkills = userValues.reduce((max, user) => {
     return user.skills.length > max.skills.length ? user : max;
 }, userValues[0]);
 
-console.log('Pessoa com mais habilidades:', personWithMostSkills); */
+console.log('Pessoa com mais habilidades:', personWithMostSkills);
 
 
-const userValues = Object.values(users);
+/*const userValues = Object.values(users);
 const loggedInCount = userValues.filter(user => user.isLoggedIn).length;
 console.log('Número de usuários logados:', loggedInCount);
 
 const highPointsCount = userValues.filter(user => user.points >= 50).length;
 console.log('Número de usuários com 50 pontos ou mais:', highPointsCount);
-
+*/
 
 const mernStack = ['MongoDB', 'Express', 'React', 'Node'];
 
