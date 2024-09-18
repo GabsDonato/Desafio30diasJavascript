@@ -90,24 +90,53 @@ every:
 
 20. Use `some` para verificar se alguns nomes têm comprimento maior que sete no array `names`.
 
-![alt text](image.png)
+<img src="./assets/img/image17.png">
 
 21. Use `every` para verificar se todos os países contêm a palavra "land".
+
+<img src="./assets/img/image18.png">
+
 22. Explique a diferença entre `find` e `findIndex`.
 23. Use `find` para encontrar o primeiro país com exatamente seis letras no array `countries`.
+
+find:
+<img src="./assets/img/imagefind.png">
+every:
+<img src="./assets/img/imagefindIndex.png">
+
 24. Use `findIndex` para encontrar a posição do primeiro país com exatamente seis letras no array `countries`.
+
+<img src="./assets/img/image19.png">
+
 25. Use `findIndex` para encontrar a posição de Noruega. Se não existir no array, você deve obter -1.
+
+<img src="./assets/img/image20.png">
+
 26. Use `findIndex` para encontrar a posição da Rússia. Se não existir no array, você deve obter -1.
+
+<img src="./assets/img/image21.png">
 
 **Exercícios: Nível 2**
 
 1. Encontre o preço total dos produtos encadeando dois ou mais iteradores de array (por exemplo, `arr.map(callback).filter(callback).reduce(callback)`).
+
+<img src="./assets/img/image22.png">
+
 2. Encontre a soma dos preços dos produtos usando apenas `reduce` (`reduce(callback)`).
 3. Declare uma função chamada `categorizeCountries` que retorna um array de países que possuem um padrão comum (encontrado no arquivo `countries.js`, por exemplo: 'land', 'ia', 'island', 'stan').
+
+<img src="./assets/img/image23.png">
+
 4. Crie uma função que retorne um array de objetos, onde cada objeto é a letra e o número de vezes que a letra é usada para iniciar o nome de um país.
+
+<img src="./assets/img/image24.png">
+
 5. Declare uma função `getFirstTenCountries` que retorne um array com os primeiros dez países. Use diferentes técnicas de programação funcional para trabalhar com o array `countries.js`.
 6. Declare uma função `getLastTenCountries` que retorne os últimos dez países no array `countries`.
 7. Descubra qual letra é usada mais vezes como inicial do nome de um país a partir do array `countries` (por exemplo: Finlândia, Fiji, França, etc.).
+
+5 a 7:
+<img src="./assets/img/image25.png">
 
 **Exercícios: Nível 3**
 
@@ -195,4 +224,6 @@ Median: 29
 Mode: (26, 5)
 Variance: 17.5
 Standard Deviation: 4.2
-Frequency Distribution: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31),
+Frequency Distribution: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31),]
+
+

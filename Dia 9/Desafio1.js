@@ -129,12 +129,40 @@ console.log(VerificaName);
 
 //21. Use `every` para verificar se todos os países contêm a palavra "land".
 
+const VerificaLand = countries.every((country) => country.includes('land'))
+console.log(VerificaLand);
+
 //22. Explique a diferença entre `find` e `findIndex`.
+
+//find retorna o primeiro elemento que estiver de acordo com a condição
+//exemplo:
+const ReceitaDeBoloFind = ['Ovos','Leite','Açucar','Farinha']
+const MaiorQueCincoCaracteres = ReceitaDeBoloFind.find((receita) => receita.length > 5)
+console.log(MaiorQueCincoCaracteres);
+
+//find retorna a posiçaõ do primeiro elemento que estiver de acordo com a condição
+//exemplo:
+const Posicao = ReceitaDeBoloFind.findIndex((receita) => receita.length > 5)
+console.log(Posicao)
 
 //23. Use `find` para encontrar o primeiro país com exatamente seis letras no array `countries`.
 
+const SeisCountries = countries.find((country) => country.length === 6)
+console.log(SeisCountries)
+
 //24. Use `findIndex` para encontrar a posição do primeiro país com exatamente seis letras no array `countries`.
 
+const PosicaoSeisContries = countries.findIndex((country) => country.length === 6)
+console.log(PosicaoSeisContries)
+
 //25. Use `findIndex` para encontrar a posição de Noruega. Se não existir no array, você deve obter -1.
+const countriess = ["Estônia", "Finlândia", "Suécia", "Dinamarca", "Noruega", "Islândia"];
+
+const posicaoNoruega = countriess.findIndex((country) => country === 'Noruega');
+console.log(posicaoNoruega);
+
 
 /*26. Use `findIndex` para encontrar a posição da Rússia. Se não existir no array, você deve obter -1 */
+
+const posicaoRussia = countriess.findIndex((country) => country === 'Rússia');
+console.log(posicaoRussia);
