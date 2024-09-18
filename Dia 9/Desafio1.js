@@ -1,22 +1,4 @@
-/***Exercícios: Nível 1**
-
-```javascript
-
-```
-
-16. Declare uma função chamada `getStringLists` que recebe um array como parâmetro e retorna um array contendo apenas itens de string.
-17. Use `reduce` para somar todos os números no array `numbers`.
-18. Use `reduce` para concatenar todos os países e produzir a seguinte frase: "Estônia, Finlândia, Suécia, Dinamarca, Noruega e Islândia são países da Europa do Norte".
-19. Explique a diferença entre `some` e `every`.
-20. Use `some` para verificar se alguns nomes têm comprimento maior que sete no array `names`.
-21. Use `every` para verificar se todos os países contêm a palavra "land".
-22. Explique a diferença entre `find` e `findIndex`.
-23. Use `find` para encontrar o primeiro país com exatamente seis letras no array `countries`.
-24. Use `findIndex` para encontrar a posição do primeiro país com exatamente seis letras no array `countries`.
-25. Use `findIndex` para encontrar a posição de Noruega. Se não existir no array, você deve obter -1.
-26. Use `findIndex` para encontrar a posição da Rússia. Se não existir no array, você deve obter -1.
-*/
-
+//Exercícios: Nível 1
 
 //1. Explique a diferença entre `forEach`, `map`, `filter` e `reduce`.
 
@@ -93,3 +75,66 @@ console.log(countriesFirstE);
 //15. Use `filter` para filtrar apenas os preços com valores.
 const FilterPrice = products.filter((product) => product.price > 0);
 console.log(FilterPrice);
+
+//16. Declare uma função chamada `getStringLists` que recebe um array como parâmetro e retorna um array contendo apenas itens de string.
+
+const getStringLists = (array) => {
+  return array.filter(item => typeof item === 'string');
+};
+
+const colors = ['Azul', 'Amarelo', 42, true, 'Verde', null];
+const stringColors = getStringLists(colors);
+console.log(stringColors); 
+
+
+//17. Use `reduce` para somar todos os números no array `numbers`.
+
+const somaNumbers = numbers.reduce((acc,cur) => acc + cur, 0)
+console.log(somaNumbers)
+
+//18. Use `reduce` para concatenar todos os países e produzir a seguinte frase: "Estônia, Finlândia, Suécia, Dinamarca, Noruega e Islândia são países da Europa do Norte".
+
+const concat = countries.reduce((acc, country, index) => {
+  if (index === countries.length - 1) {
+      return acc + ' e ' + country; 
+  } else {
+      return acc + ', ' + country; 
+  }
+}, '');
+
+const frase = concat + ' são países da Europa do Norte.';
+console.log(frase);
+
+//19. Explique a diferença entre `some` e `every`.
+// some - alguns, ele verifica se ealguns dos elementos são semelhantes , e retorna booleano
+
+//exemplo:
+const nameDesorveteAlguns = ['Chocolate', 23 , 'nutella']
+const AlgunsSaoNumeros = nameDesorveteAlguns.some((nome) => typeof nome === 'number')
+
+console.log(AlgunsSaoNumeros);
+
+// every - todos , ele verifica se todos os elementos são semelhantes e retorna booleano
+
+//exemplo:
+const nomeDesorveteTodos = ['Chocolate', 'Morango', 'Baunilha', 'Flocos']
+const SaoStrings = nomeDesorveteTodos.every((nome) => typeof nome === 'string')
+
+console.log(SaoStrings);
+
+//20. Use `some` para verificar se alguns nomes têm comprimento maior que sete no array `names`.
+
+const VerificaName = names.some((name) => name.length > 7)
+console.log(VerificaName);
+
+//21. Use `every` para verificar se todos os países contêm a palavra "land".
+
+//22. Explique a diferença entre `find` e `findIndex`.
+
+//23. Use `find` para encontrar o primeiro país com exatamente seis letras no array `countries`.
+
+//24. Use `findIndex` para encontrar a posição do primeiro país com exatamente seis letras no array `countries`.
+
+//25. Use `findIndex` para encontrar a posição de Noruega. Se não existir no array, você deve obter -1.
+
+/*26. Use `findIndex` para encontrar a posição da Rússia. Se não existir no array, você deve obter -1 */

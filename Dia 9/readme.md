@@ -71,12 +71,27 @@ const products = [
 
 16. Declare uma função chamada `getStringLists` que recebe um array como parâmetro e retorna um array contendo apenas itens de string.
 
+<img src="./assets/img/image14.png">
+
 17. Use `reduce` para somar todos os números no array `numbers`.
+
+<img src="./assets/img/image15-.png">
 
 18. Use `reduce` para concatenar todos os países e produzir a seguinte frase: "Estônia, Finlândia, Suécia, Dinamarca, Noruega e Islândia são países da Europa do Norte".
 
+<img src="./assets/img/image16.png">
+
 19. Explique a diferença entre `some` e `every`.
+
+some:
+<img src="./assets/img/imageSome.png">
+every:
+<img src="./assets/img/imageEvery.png">
+
 20. Use `some` para verificar se alguns nomes têm comprimento maior que sete no array `names`.
+
+![alt text](image.png)
+
 21. Use `every` para verificar se todos os países contêm a palavra "land".
 22. Explique a diferença entre `find` e `findIndex`.
 23. Use `find` para encontrar o primeiro país com exatamente seis letras no array `countries`.
