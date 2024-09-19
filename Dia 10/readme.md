@@ -15,6 +15,8 @@ const countries = ['Finlândia', 'Suécia', 'Noruega']
 5. Crie um conjunto com 5 elementos de string a partir de um array.
 6. Crie um mapa de países e o número de caracteres de cada país.
 
+<img src="./assets/img/imageDesafio1.png">
+
 ### Exercícios: Nível 2
 
 1. Encontre a união de a e b.
