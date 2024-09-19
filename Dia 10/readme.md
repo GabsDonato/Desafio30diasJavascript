@@ -62,3 +62,6 @@ const countries = ['Finlândia', 'Suécia', 'Noruega']
   {Árabe:25}
   ]
 ```
+
+
+<img src="./assets/img/imageDesafio3.png">
