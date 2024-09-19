@@ -20,8 +20,16 @@ const countries = ['Finlândia', 'Suécia', 'Noruega']
 ### Exercícios: Nível 2
 
 1. Encontre a união de a e b.
+
+<img src="./assets/img/image2-1.png">
+
 2. Encontre a interseção de a e b.
+
+<img src="./assets/img/image2-2.png">
+
 3. Encontre a diferença de a em relação a b.
+
+<img src="./assets/img/image2-3.png">
 
 ### Exercícios: Nível 3
 
