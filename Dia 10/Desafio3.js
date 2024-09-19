@@ -52,7 +52,6 @@ console.log(langSet.size);
 
 
 //2. Use os dados dos países para encontrar as 10 línguas mais faladas.
-
 const counts = [];
 
 for (const lang of langSet) {
