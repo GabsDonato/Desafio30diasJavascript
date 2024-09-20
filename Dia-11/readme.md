@@ -59,10 +59,16 @@ const usuários = [
 2. Desestruture e atribua os elementos do array países a fin, est, sw, den, nor.
 3. Desestruture o objeto retângulo por suas propriedades ou chaves.
 
+<img src="./assets/img/imagedesafio1.png">
+
+
 ### Exercícios: Nível 2
 
 1. Itere através do array usuários e obtenha todas as chaves do objeto usando desestruturação.
 2. Encontre as pessoas que têm menos de duas habilidades.
+
+
+<img src="./assets/img/imagedesafio2.png">
 
 ### Exercícios: Nível 3
 
