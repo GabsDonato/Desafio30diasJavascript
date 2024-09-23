@@ -51,3 +51,24 @@
     ]
     ```
     */
+
+
+    function dezPalavrasMaisFrequentes(parágrafo) {
+        const palavras = parágrafo.toLowerCase().match(/\b\w+\b/g);
+        const contagem = {};
+    
+        palavras.forEach(palavra => {
+            contagem[palavra] = (contagem[palavra] || 0) + 1;
+        });
+    
+        const palavrasFrequentes = Object.entries(contagem)
+            .map(([palavra, contagem]) => ({ palavra, contagem }))
+            .sort((a, b) => b.contagem - a.contagem)
+            .slice(0, 10);
+    
+        return palavrasFrequentes;
+    }
+    
+    const parágrafo = `Eu amo ensinar. Se você não ama ensinar, o que mais pode amar? Eu amo Python se você não ama algo que pode te dar todas as capacidades para desenvolver uma aplicação, o que mais pode amar.`;
+    console.log(dezPalavrasMaisFrequentes(parágrafo));
+    

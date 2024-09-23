@@ -1,5 +1,3 @@
-Claro! Aqui está a tradução do seu `readme.md`:
-
 ### Exercícios: Nível 1
 
 1. Calcule a renda anual total da pessoa a partir do seguinte texto: "Ele ganha 4000 euros de salário por mês, 10000 euros de bônus anual, 5500 euros de cursos online por mês."
@@ -19,6 +17,7 @@ distância = 12
     is_valid_variable('1first_name') # False
     is_valid_variable('firstname') # True
     ```
+<img src="./assets/img/imagedesafio1.png">
 
 ### Exercícios: Nível 2
 
@@ -73,6 +72,9 @@ distância = 12
     ]
     ```
 
+<img src="./assets/img/imagedesafio2.png">
+
+
 ### Exercícios: Nível 3
 
 1. Escreva uma função que limpe um texto. Limpe o seguinte texto. Após a limpeza, conte as três palavras mais frequentes na string.
@@ -92,3 +94,6 @@ distância = 12
    console.log(palavrasMaisFrequentes(textoLimpo))
    [{palavra:'Eu', contagem:3}, {palavra:'ensinar', contagem:2}, {palavra:'professor', contagem:2}]
    ```
+
+
+  <img src="./assets/img/imagedesafio3.png">
