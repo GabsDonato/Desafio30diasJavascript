@@ -18,8 +18,13 @@
 ### Exercícios: Nível 2
 
 1. 10 > 2 * 10 usar console.assert()
+
+<img src="./assets/img/image4.png">
+
 2. Escrever uma mensagem de aviso usando console.warn()
 3. Escrever uma mensagem de erro usando console.error()
+
+<img src="./assets/img/image5.png">
 
 ### Exercícios: Nível 3
 
