@@ -3,8 +3,17 @@
 ### Exercícios: Nível 1
 
 1. Exibir o array de países como uma tabela
+
+<img src="./assets/img/image.png">
+
 2. Exibir o objeto de países como uma tabela
+
+<img src="./assets/img/image2.png">
+
 3. Usar console.group() para agrupar logs
+
+<img src="./assets/img/image3.png">
+
 
 ### Exercícios: Nível 2
 
