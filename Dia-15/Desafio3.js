@@ -1,0 +1,5 @@
+/* ### Exercícios Nível 3
+
+1. Vamos tentar desenvolver um programa que calcule medidas de tendência central de uma amostra (média, mediana, moda) e medidas de variabilidade (intervalo, variância, desvio padrão). Além dessas medidas, encontre o mínimo, máximo, contagem, percentil e distribuição de frequência da amostra. Você pode criar uma classe chamada Estatísticas e implementar todas as funções que realizam cálculos estatísticos como métodos dessa classe. Confira a saída abaixo.
+2. Crie uma classe chamada ContaPessoal. Ela terá as propriedades nome, sobrenome, rendimentos, despesas e os métodos totalRenda, totalDespesa, infoConta, adicionarRenda, adicionarDespesa e saldoConta. Rendas será um conjunto de rendimentos e suas descrições, e despesas também será um conjunto de despesas e suas descrições.
+*/
