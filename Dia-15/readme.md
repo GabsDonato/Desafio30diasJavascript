@@ -54,3 +54,5 @@ Distribuição de Frequência: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (
 ![alt text](image-1.png)
 
 2. Crie uma classe chamada ContaPessoal. Ela terá as propriedades nome, sobrenome, rendimentos, despesas e os métodos totalRenda, totalDespesa, infoConta, adicionarRenda, adicionarDespesa e saldoConta. Rendas será um conjunto de rendimentos e suas descrições, e despesas também será um conjunto de despesas e suas descrições.
+
+![alt text](image-2.png)

@@ -92,4 +92,50 @@ class Estatistica {
   
 //2. Crie uma classe chamada ContaPessoal. Ela terá as propriedades nome, sobrenome, rendimentos, despesas e os métodos totalRenda, totalDespesa, infoConta, adicionarRenda, adicionarDespesa e saldoConta. Rendas será um conjunto de rendimentos e suas descrições, e despesas também será um conjunto de despesas e suas descrições.
 
+class ContaPessoal {
+    constructor(nome, sobrenome) {
+      this.nome = nome;
+      this.sobrenome = sobrenome;
+      this.rendimentos = []; 
+      this.despesas = []; 
+    }
+  
+    totalRenda() {
+      return this.rendimentos.reduce((total, rendimento) => total + rendimento.valor, 0);
+    }
+  
+    totalDespesa() {
+      return this.despesas.reduce((total, despesa) => total + despesa.valor, 0);
+    }
+  
+    infoConta() {
+      console.log(`Nome: ${this.nome} ${this.sobrenome}`);
+      console.log(`Total de rendas: ${this.totalRenda()}`);
+      console.log(`Total de despesas: ${this.totalDespesa()}`);
+    }
+  
+    adicionarRenda(descricao, valor) {
+      this.rendimentos.push({ descricao, valor });
+    }
+  
+    adicionarDespesa(descricao, valor) {
+      this.despesas.push({ descricao, valor });
+    }
+  
+    saldoConta() {
+      const saldo = this.totalRenda() - this.totalDespesa();
+      console.log(`O saldo da conta está em: ${saldo}`);
+    }
+  }
+  
+  const conta = new ContaPessoal('Juliana', 'Leite');
+  conta.adicionarRenda('Salário', 1400);
+  conta.adicionarRenda('Extras', 700);
+  conta.adicionarDespesa('Aluguel', 650);
+  conta.adicionarDespesa('Alimentação', 400);
+  conta.adicionarDespesa('Conta de Luz', 300);
+  
+  conta.infoConta();
+  conta.saldoConta();
+  
 
