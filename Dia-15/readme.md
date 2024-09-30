@@ -11,6 +11,10 @@ Claro! Aqui está a tradução do seu `readme.md`:
 
 1. Sobrescreva o método que você criou na classe Animal.
 
+## Exercicios Nivel 1 e 2
+
+![alt text](image.png)
+
 ### Exercícios Nível 3
 
 1. Vamos tentar desenvolver um programa que calcule medidas de tendência central de uma amostra (média, mediana, moda) e medidas de variabilidade (intervalo, variância, desvio padrão). Além dessas medidas, encontre o mínimo, máximo, contagem, percentil e distribuição de frequência da amostra. Você pode criar uma classe chamada Estatísticas e implementar todas as funções que realizam cálculos estatísticos como métodos dessa classe. Confira a saída abaixo.
@@ -46,5 +50,7 @@ Variância:  17.5
 Desvio Padrão:  4.2
 Distribuição de Frequência: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
 ```
+
+![alt text](image-1.png)
 
 2. Crie uma classe chamada ContaPessoal. Ela terá as propriedades nome, sobrenome, rendimentos, despesas e os métodos totalRenda, totalDespesa, infoConta, adicionarRenda, adicionarDespesa e saldoConta. Rendas será um conjunto de rendimentos e suas descrições, e despesas também será um conjunto de despesas e suas descrições.
