@@ -1,9 +1,20 @@
 ### Exercícios Nível 1
 
 1. Converta o array de habilidades para JSON usando JSON.stringify()
+
+![alt text](image.png)
+
 2. Converta a variável idade para JSON
+
+![alt text](image-1.png)
+
 3. Converta a variável isMarried para JSON
+
+![alt text](image-2.png)
+
 4. Converta o objeto estudante para JSON
+
+![alt text](image-3.png)
 
 ### Exercícios Nível 2
 
