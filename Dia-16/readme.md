@@ -20,7 +20,16 @@
 
 1. Converta o objeto estudantes para JSON, incluindo apenas as propriedades firstName, lastName e skills
 
+![alt text](image-5.png)
+
 ### Exercícios Nível 3
 
 1. Converta o JSON *txt* para objeto.
+
+![alt text](image-4.png)
+
 2. Encontre o usuário que possui mais habilidades a partir da variável armazenada em *txt*.
+
+![alt text](image-6.png)
+
+
