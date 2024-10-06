@@ -9,6 +9,8 @@ const catsAPI = 'https://api.thecatapi.com/v1/breeds'
 
 1. Leia a API de países usando fetch e imprima o nome do país, capital, idiomas, população e área.
 
+![alt text](image.png)
+
 ### Exercícios: Nível 2
 
 1. Imprima todos os nomes de gatos na variável catNames.
