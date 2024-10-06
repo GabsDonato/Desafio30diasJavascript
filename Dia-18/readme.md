@@ -15,6 +15,8 @@ const catsAPI = 'https://api.thecatapi.com/v1/breeds'
 
 1. Imprima todos os nomes de gatos na variável catNames.
 
+![alt text](image-1.png)
+
 ### Exercícios: Nível 3
 
 1. Leia a API de gatos e encontre o peso médio dos gatos em unidades métricas.
