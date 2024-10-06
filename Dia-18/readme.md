@@ -20,5 +20,14 @@ const catsAPI = 'https://api.thecatapi.com/v1/breeds'
 ### Exercícios: Nível 3
 
 1. Leia a API de gatos e encontre o peso médio dos gatos em unidades métricas.
+
+![alt text](image-2.png)
+
 2. Leia a API de países e descubra os 10 maiores países.
+
+![alt text](image-3.png)
+
+
 3. Leia a API de países e conte o número total de idiomas no mundo usados como oficiais.
+
+![alt text](image-4.png)
