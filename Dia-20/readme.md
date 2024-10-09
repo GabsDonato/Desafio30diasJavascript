@@ -1,0 +1,1 @@
+## Apenas o artigo sobre codigo limpo , sem exercicios.
