@@ -8,3 +8,27 @@
 5. Defina o conteúdo de texto do quarto parágrafo como **_Quarto Parágrafo_**.
 6. Defina os atributos id e class para todos os parágrafos usando diferentes métodos de definição de atributos. 
 */
+
+
+const Primeiroparagrafo = document.querySelector('p')
+
+let Primeiro = document.querySelectorAll('#Primeiro-p')
+let Segundo = document.querySelectorAll('#Segundo-p')
+let Terceiro = document.querySelectorAll('#Terceiro-p')
+let Quarto = document.querySelectorAll('#Quarto-p');
+
+const todosOsParagrafos = document.querySelectorAll('p');
+
+todosOsParagrafos.forEach(paragrafo => {
+    console.log(paragrafo.textContent);
+})
+
+quarto.textContent = 'Quarto Parágrafo';
+
+todosOsParagrafos.forEach((paragrafo, index) => {
+    paragrafo.setAttribute('id', `paragrafo-${index + 1}`);
+    paragrafo.className = `classe-${index + 1}`;
+});
+
+
+
