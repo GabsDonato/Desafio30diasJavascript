@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Países do Mundo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .country {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .country:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+<h1>Lista de Países do Mundo</h1>
+<div class="container" id="countryContainer"></div>
+
+<script>
+    const countries = [
+        'Afeganistão', 'África do Sul', 'Albânia', 'Alemanha', 'Andorra', 
+        'Angola', 'Antígua e Barbuda', 'Argentina', 'Armênia', 'Austrália', 
+        'Áustria', 'Azerbaijão', 'Bahamas', 'Bahrein', 'Bangladesh', 
+        'Barbados', 'Bielorrússia', 'Bélgica', 'Belize', 'Benin', 
+        'Bolívia', 'Bósnia e Herzegovina', 'Botswana', 'Brasil', 'Brunéi', 
+        'Bulgária', 'Burkina Faso', 'Burundi', 'Butão', 'Cabo Verde', 
+        'Camarões', 'Canadá', 'Cazaquistão', 'Chade', 'Chile', 
+        'China', 'Colômbia', 'Comores', 'Congo', 'Costa Rica', 
+        'Croácia', 'Cuba', 'Dinamarca', 'Dominica', 'Egito', 
+        'El Salvador', 'Emirados Árabes Unidos', 'Equador', 'Espanha', 'Estônia', 
+        'Eswatini', 'Estados Unidos', 'Etiópia', 'Fiji', 'Filipinas', 
+        'França', 'Gabão', 'Gambia', 'Gana', 'Grécia', 
+        'Guatemala', 'Guiana', 'Guiné', 'Guiné-Bissau', 'Honduras', 
+        'Hungria', 'Iémen', 'Ilhas Marshall', 'Ilhas Salomão', 'Índia', 
+        'Indonésia', 'Irã', 'Iraque', 'Irlanda', 'Islândia', 
+        'Itália', 'Jamaica', 'Japão', 'Jordânia', 'Kazakhstan', 
+        'Quênia', 'Quirguistão', 'Kiribati', 'Kuwait', 'Laos', 
+        'Lesoto', 'Letônia', 'Libéria', 'Líbano', 'Líbia', 
+        'Liechtenstein', 'Lituânia', 'Luxemburgo', 'Madagascar', 'Malásia', 
+        'Malawi', 'Maldivas', 'Mali', 'Malta', 'Marrocos', 
+        'Maurício', 'Mauritânia', 'México', 'Mianmar', 'Moçambique', 
+        'Namíbia', 'Nauru', 'Nepal', 'Nicarágua', 'Níger', 
+        'Nigéria', 'Noruega', 'Nova Zelândia', 'Omã', 'Panamá', 
+        'Papua Nova Guiné', 'Paquistão', 'Paraguai', 'Peru', 'Polônia', 
+        'Portugal', 'Qatar', 'República Centro-Africana', 'República Checa', 
+        'República Dominicana', 'Romênia', 'Ruanda', 'Rússia', 
+        'São Cristóvão e Nevis', 'São Marino', 'São Tomé e Príncipe', 
+        'São Vicente e Granadinas', 'Senegal', 'Sérvia', 'Seychelles', 
+        'Singapura', 'Siria', 'Somália', 'Sri Lanka', 'Suécia', 
+        'Suíça', 'Suriname', 'Tadjiquistão', 'Tailândia', 'Tanzânia', 
+        'Timor-Leste', 'Togo', 'Trinidad e Tobago', 'Tunísia', 'Turcomenistão', 
+        'Turquia', 'Ucrânia', 'Uganda', 'Uruguai', 'Vanuatu', 
+        'Vaticano', 'Venezuela', 'Vietnã', 'Zâmbia', 'Zimbábue'
+    ];
+
+    const container = document.getElementById('countryContainer');
+
+    countries.forEach(country => {
+        const div = document.createElement('div');
+        div.className = 'country';
+        div.textContent = country;
+        container.appendChild(div);
+    });
+</script>
+
+</body>
+</html>

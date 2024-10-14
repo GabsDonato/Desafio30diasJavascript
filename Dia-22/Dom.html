@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto DOM Mini</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        details {
+            margin-bottom: 10px;
+        }
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container" id="dataContainer"></div>
+
+<script>
+    // Dados a serem exibidos
+    const data = [
+        {
+            title: "Título 1",
+            content: "Este é o conteúdo do título 1."
+        },
+        {
+            title: "Título 2",
+            content: "Aqui está mais informações sobre o título 2."
+        },
+        {
+            title: "Título 3",
+            content: "Conteúdo interessante sobre o título 3."
+        }
+    ];
+
+    const container = document.getElementById('dataContainer');
+
+    // Gerar elementos dinamicamente
+    data.forEach(item => {
+        const details = document.createElement('details');
+        const summary = document.createElement('summary');
+        const paragraph = document.createElement('p');
+
+        summary.textContent = item.title;
+        paragraph.textContent = item.content;
+
+        details.appendChild(summary);
+        details.appendChild(paragraph);
+        container.appendChild(details);
+    });
+</script>
+
+</body>
+</html>

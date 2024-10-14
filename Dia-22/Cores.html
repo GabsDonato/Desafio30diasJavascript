@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Números Dinâmicos</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 600px;
+            margin: 20px auto;
+        }
+        .number {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 5px;
+            font-size: 20px;
+            color: white;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container" id="numberContainer"></div>
+
+<script>
+    const container = document.getElementById('numberContainer');
+
+    function isPrime(num) {
+        if (num <= 1) return false;
+        for (let i = 2; i <= Math.sqrt(num); i++) {
+            if (num % i === 0) return false;
+        }
+        return true;
+    }
+
+    for (let i = 1; i <= 100; i++) {
+        const div = document.createElement('div');
+        div.className = 'number';
+
+        if (isPrime(i)) {
+            div.style.backgroundColor = 'red';
+        } else if (i % 2 === 0) {
+            div.style.backgroundColor = 'green';
+        } else {
+            div.style.backgroundColor = 'yellow';
+        }
+
+        div.textContent = i;
+        container.appendChild(div);
+    }
+</script>
+
+</body>
+</html>
