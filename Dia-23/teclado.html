@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Código da Tecla</title>
+</head>
+<body>
+    <h1>Pressione uma tecla</h1>
+    <div id="keyCodeDisplay"></div>
+
+    <script>
+        document.addEventListener('keydown', function(event) {
+            const display = document.getElementById('keyCodeDisplay');
+            display.textContent = 'Código da tecla: ' + event.keyCode + ' (' + event.key + ')';
+        });
+    </script>
+</body>
+</html>

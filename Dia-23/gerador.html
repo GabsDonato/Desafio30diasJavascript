@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Números</title>
+    <style>
+        .par { color: green; }
+        .impar { color: blue; }
+        .primo { color: red; }
+    </style>
+</head>
+<body>
+    <div id="numbers"></div>
+    <script>
+        function isPrime(num) {
+            if (num <= 1) return false;
+            for (let i = 2; i <= Math.sqrt(num); i++) {
+                if (num % i === 0) return false;
+            }
+            return true;
+        }
+
+        const container = document.getElementById('numbers');
+        for (let i = 1; i <= 100; i++) {
+            const span = document.createElement('span');
+            span.textContent = i + ' ';
+
+            if (isPrime(i)) {
+                span.classList.add('primo');
+            } else if (i % 2 === 0) {
+                span.classList.add('par');
+            } else {
+                span.classList.add('impar');
+            }
+
+            container.appendChild(span);
+        }
+    </script>
+</body>
+</html>
