@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Peso em Planetas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        label, select {
+            margin-top: 10px;
+            display: block;
+        }
+        button {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cálculo de Peso em Planetas</h1>
+    
+    <label for="mass">Massa do objeto (kg):</label>
+    <input type="number" id="mass" placeholder="Digite a massa" />
+
+    <label for="planet">Selecione um planeta:</label>
+    <select id="planet">
+        <option value="mercurio">Mercúrio</option>
+        <option value="venus">Vênus</option>
+        <option value="terra">Terra</option>
+        <option value="marte">Marte</option>
+        <option value="jupiter">Júpiter</option>
+        <option value="saturno">Saturno</option>
+        <option value="urano">Urano</option>
+        <option value="netuno">Netuno</option>
+    </select>
+
+    <button onclick="calculateWeight()">Calcular Peso</button>
+
+    <h2 id="result"></h2>
+
+    <script>
+        const gravity = {
+            mercurio: 3.7,
+            venus: 8.87,
+            terra: 9.81,
+            marte: 3.71,
+            jupiter: 24.79,
+            saturno: 10.44,
+            urano: 8.69,
+            netuno: 11.15
+        };
+
+        function calculateWeight() {
+            const mass = document.getElementById('mass').value;
+            const planet = document.getElementById('planet').value;
+            const weight = mass * gravity[planet];
+
+            document.getElementById('result').textContent = 
+                `O peso do objeto em ${planet.charAt(0).toUpperCase() + planet.slice(1)} é: ${weight.toFixed(2)} N`;
+        }
+    </script>
+</body>
+</html>
