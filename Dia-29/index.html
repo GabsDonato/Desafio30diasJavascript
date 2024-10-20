@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animação de Texto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #282c34;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .text {
+            font-size: 2em;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 4px solid #ffffff;
+            width: 0;
+            animation: typing 5s steps(30, end), blink-caret 0.75s step-end infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        @keyframes blink-caret {
+            from, to {
+                border-color: transparent;
+            }
+            50% {
+                border-color: white;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="text">30 Days of JavaScript Challenge 2024</div>
+
+    <script>
+        // Você pode adicionar mais funcionalidades aqui, se desejar
+    </script>
+</body>
+</html>

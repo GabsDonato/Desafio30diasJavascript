@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Países do Mundo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .country {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            opacity: 0;
+            animation: fadeIn 0.5s forwards;
+        }
+
+        .country img {
+            width: 40px;
+            height: auto;
+            margin-right: 15px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Países do Mundo</h1>
+        <div id="countries-list"></div>
+    </div>
+
+    <script>
+        const countries = [
+            {
+                nome: "Brasil",
+                capital: "Brasília",
+                populacao: "213 milhões",
+                bandeira: "https://flagcdn.com/br.svg"
+            },
+            {
+                nome: "Estados Unidos",
+                capital: "Washington, D.C.",
+                populacao: "331 milhões",
+                bandeira: "https://flagcdn.com/us.svg"
+            },
+            {
+                nome: "China",
+                capital: "Pequim",
+                populacao: "1.4 bilhões",
+                bandeira: "https://flagcdn.com/cn.svg"
+            },
+            {
+                nome: "Índia",
+                capital: "Nova Délhi",
+                populacao: "1.4 bilhões",
+                bandeira: "https://flagcdn.com/in.svg"
+            },
+            {
+                nome: "França",
+                capital: "Paris",
+                populacao: "67 milhões",
+                bandeira: "https://flagcdn.com/fr.svg"
+            },
+            {
+                nome: "Alemanha",
+                capital: "Berlim",
+                populacao: "83 milhões",
+                bandeira: "https://flagcdn.com/de.svg"
+            },
+            {
+                nome: "Japão",
+                capital: "Tóquio",
+                populacao: "126 milhões",
+                bandeira: "https://flagcdn.com/jp.svg"
+            },
+            {
+                nome: "Reino Unido",
+                capital: "Londres",
+                populacao: "67 milhões",
+                bandeira: "https://flagcdn.com/gb.svg"
+            },
+            {
+                nome: "Rússia",
+                capital: "Moscovo",
+                populacao: "146 milhões",
+                bandeira: "https://flagcdn.com/ru.svg"
+            },
+            {
+                nome: "Austrália",
+                capital: "Canberra",
+                populacao: "25 milhões",
+                bandeira: "https://flagcdn.com/au.svg"
+            }
+        ];
+
+        const countriesList = document.getElementById('countries-list');
+
+        countries.forEach((country, index) => {
+            const countryDiv = document.createElement('div');
+            countryDiv.className = 'country';
+            countryDiv.style.animationDelay = `${index * 0.1}s`; // Atraso da animação
+
+            countryDiv.innerHTML = `
+                <img src="${country.bandeira}" alt="Bandeira de ${country.nome}">
+                <div>
+                    <strong>${country.nome}</strong><br>
+                    Capital: ${country.capital}<br>
+                    População: ${country.populacao}
+                </div>
+            `;
+
+            countriesList.appendChild(countryDiv);
+        });
+    </script>
+</body>
+</html>

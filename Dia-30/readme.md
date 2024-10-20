@@ -1,0 +1,1 @@
+## Crie a seguinte animação usando (HTML, CSS, JS) uma base de dados dos paises do mundo inclundo as bandeiras , nome capital.
