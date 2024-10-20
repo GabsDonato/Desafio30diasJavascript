@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>README Pessoal - [Seu Nome]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        h2 {
+            color: #555;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 5px;
+            background: #e8e8e8;
+            margin-bottom: 5px;
+            border-radius: 3px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>[Seu Nome]</h1>
+            <p>Desenvolvedor Web | Apaixonado por tecnologia e aprendizado contínuo</p>
+        </header>
+        <section>
+            <h2>Habilidades</h2>
+            <ul id="skills-list"></ul>
+        </section>
+        <section>
+            <h2>Projetos</h2>
+            <button id="show-projects">Mostrar Projetos</button>
+            <div id="projects" class="hidden"></div>
+        </section>
+        <section>
+            <h2>Contato</h2>
+            <p>Email: [seuemail@exemplo.com]</p>
+        </section>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const skills = [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "React",
+                "Node.js",
+                "Python",
+                "Git",
+                "SQL"
+            ];
+
+            const projects = [
+                "Projeto 1: Aplicação de Tarefas em React",
+                "Projeto 2: API REST com Node.js",
+                "Projeto 3: Site Pessoal com HTML e CSS",
+                "Projeto 4: Jogo da Velha em JavaScript"
+            ];
+
+            const skillsList = document.getElementById('skills-list');
+            const projectsDiv = document.getElementById('projects');
+            const showProjectsButton = document.getElementById('show-projects');
+
+            // Adiciona habilidades à lista
+            skills.forEach(skill => {
+                const li = document.createElement('li');
+                li.textContent = skill;
+                skillsList.appendChild(li);
+            });
+
+            // Função para mostrar ou ocultar projetos
+            showProjectsButton.addEventListener('click', () => {
+                if (projectsDiv.classList.contains('hidden')) {
+                    projectsDiv.classList.remove('hidden');
+                    projectsDiv.innerHTML = projects.map(project => `<p>${project}</p>`).join('');
+                    showProjectsButton.textContent = "Ocultar Projetos";
+                } else {
+                    projectsDiv.classList.add('hidden');
+                    projectsDiv.innerHTML = '';
+                    showProjectsButton.textContent = "Mostrar Projetos";
+                }
+            });
+        });
+    </script>
+</body>
+</html>
